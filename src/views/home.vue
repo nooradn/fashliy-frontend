@@ -11,12 +11,12 @@
           <navigation-links rootClassName="rootClassName1"></navigation-links>
         </div>
         <div class="home-btn-group">
-          <button class="home-button button">
+          <router-link to="/login-page" class="home-navlink button">
             <span class="home-text"><span>Masuk</span></span>
-          </button>
-          <button class="home-button1 button">
+          </router-link>
+          <router-link to="/login-page" class="home-navlink1 button">
             <span class="home-text02">Daftar</span>
-          </button>
+          </router-link>
         </div>
         <div class="home-menu-burger teleport-menu-burger">
           <svg viewBox="0 0 1024 1024" class="home-icon">
@@ -66,17 +66,17 @@
         <h1 class="home-text03">
           <span>
             Belajar Ilmu Agama lebih
-            <span v-html="raw8d31"></span>
+            <span v-html="rawuj2p"></span>
           </span>
           <span class="home-text05">mudah</span>
           <span>
             dan
-            <span v-html="rawvf0h"></span>
+            <span v-html="rawnxs7"></span>
           </span>
           <span class="home-text07">terarah.</span>
         </h1>
         <div class="home-btn-group1">
-          <button class="home-button2 button">Mulai Belajar</button>
+          <button class="home-button button">Mulai Belajar</button>
         </div>
       </div>
       <img
@@ -89,7 +89,7 @@
       <h1 class="home-text08">
         <span>
           Materi Belajar
-          <span v-html="rawnqn0"></span>
+          <span v-html="raw664s"></span>
         </span>
         <span class="home-text10">Unggulan</span>
         <br />
@@ -133,7 +133,7 @@
         <h1 class="home-text20">
           <span>
             Video Materi
-            <span v-html="rawbgn0"></span>
+            <span v-html="rawb90p"></span>
           </span>
           <span class="home-text22">Berkualitas</span>
           <br />
@@ -159,7 +159,7 @@
         <h1 class="home-text27">
           <span>
             Paket Hemat,
-            <span v-html="raw0y8i"></span>
+            <span v-html="raw2jkr"></span>
           </span>
           <span class="home-text29">Bersahabat!</span>
           <br />
@@ -183,7 +183,7 @@
             <span class="home-text39"><span>✔ Subdomain publish</span></span>
             <span class="home-text41"><span>✔ Download code</span></span>
           </div>
-          <button class="home-button3 button">
+          <button class="home-button1 button">
             <span class="home-text43"><span>Daftar Sekarang</span></span>
           </button>
         </div>
@@ -207,7 +207,7 @@
             <span class="home-text60"><span>✔ No project limitations</span></span>
             <span class="home-text62"><span>✔ Unlimited Users</span></span>
           </div>
-          <button class="home-button4 button">
+          <button class="home-button2 button">
             <span class="home-text64"><span>Daftar Sekarang</span></span>
           </button>
         </div>
@@ -228,7 +228,7 @@
             <span class="home-text79"><span>✔ Premium analytics</span></span>
             <span class="home-text81"><span>✔ Version history</span></span>
           </div>
-          <button class="home-button5 button">
+          <button class="home-button3 button">
             <span class="home-text83"><span>Daftar Sekarang</span></span>
           </button>
         </div>
@@ -245,12 +245,12 @@
             elit. Sed non volutpat turpis. Mauris luctus rutrum mi ut rhoncus.
             Integer in dignissim tortor. Sed non volutpat turpis. Mauris luctus
             rutrum mi ut rhoncus. Integer in dignissim ortor.
-            <span v-html="rawfiy8"></span>
+            <span v-html="rawd42s"></span>
           </span>
-          <span><span v-html="rawfvpb"></span></span>
+          <span><span v-html="rawej9u"></span></span>
         </span>
       </span>
-      <button class="home-button6 button">
+      <button class="home-button4 button">
         <span class="home-text90"><span>Daftar Sekarang</span></span>
       </button>
     </div>
@@ -261,14 +261,14 @@
           src="/playground_assets/logotext-fill.svg"
           class="home-image3"
         />
+        <span class="home-text92">© 2021 Fashliy, Hak Cipta Dilindungi.</span>
         <div class="home-container16">
-          <span class="home-text92">Tentang</span>
-          <span class="home-text93">Katalog</span>
-          <span class="home-text94">Karir</span>
-          <span class="home-text95">Kebijakan Privasi</span>
-          <span class="home-text96">Bantuan</span>
+          <span class="home-text93">Tentang</span>
+          <span class="home-text94">Katalog</span>
+          <span class="home-text95">Karir</span>
+          <span class="home-text96">Kebijakan Privasi</span>
+          <span class="home-text97">Bantuan</span>
         </div>
-        <span class="home-text97">© 2021 Fashliy, Hak Cipta Dilindungi.</span>
       </footer>
     </div>
   </div>
@@ -287,13 +287,13 @@ export default {
 
   data() {
     return {
-      raw8d31: ' ',
-      rawvf0h: ' ',
-      rawnqn0: ' ',
-      rawbgn0: ' ',
-      raw0y8i: ' ',
-      rawfiy8: ' ',
-      rawfvpb: ' ',
+      rawuj2p: ' ',
+      rawnxs7: ' ',
+      raw664s: ' ',
+      rawb90p: ' ',
+      raw2jkr: ' ',
+      rawd42s: ' ',
+      rawej9u: ' ',
     }
   },
 
@@ -354,7 +354,7 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.home-button {
+.home-navlink {
   opacity: 0.8;
   transition: 0.3s;
   margin-left: 10px;
@@ -363,9 +363,10 @@ export default {
   padding-left: var(--dl-space-space-twounits);
   border-radius: 50px;
   padding-right: var(--dl-space-space-twounits);
+  text-decoration: none;
   background-color: transparent;
 }
-.home-button:hover {
+.home-navlink:hover {
   opacity: 1;
   background-color: rgba(255, 255, 255, 0.25);
 }
@@ -373,7 +374,7 @@ export default {
   color: var(--dl-color-gray-white);
   font-weight: 700;
 }
-.home-button1 {
+.home-navlink1 {
   transition: 0.3s;
   margin-left: 10px;
   border-color: rgba(255, 255, 255, 0.9);
@@ -381,9 +382,10 @@ export default {
   padding-left: var(--dl-space-space-twounits);
   border-radius: 50px;
   padding-right: var(--dl-space-space-twounits);
+  text-decoration: none;
   background-color: rgba(255, 255, 255, 0.8);
 }
-.home-button1:hover {
+.home-navlink1:hover {
   background-color: #ffffff;
 }
 .home-text02 {
@@ -468,7 +470,7 @@ export default {
   align-items: center;
   flex-direction: row;
 }
-.home-button2 {
+.home-button {
   color: var(--dl-color-gray-white);
   font-size: 1.2rem;
   transition: 0.3s;
@@ -481,7 +483,7 @@ export default {
   padding-bottom: var(--dl-space-space-unit);
   background-color: var(--dl-color-primary-teal-primary);
 }
-.home-button2:hover {
+.home-button:hover {
   color: var(--dl-color-gray-white);
   background-color: var(--dl-color-gray-black);
 }
@@ -745,7 +747,7 @@ export default {
 .home-text41 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-button3 {
+.home-button1 {
   color: var(--dl-color-primary-teal-primary);
   font-size: 16px;
   margin-top: var(--dl-space-space-unit);
@@ -837,7 +839,7 @@ export default {
 .home-text62 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-button4 {
+.home-button2 {
   color: var(--dl-color-gray-white);
   font-size: 16px;
   margin-top: var(--dl-space-space-unit);
@@ -928,7 +930,7 @@ export default {
 .home-text81 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-button5 {
+.home-button3 {
   color: var(--dl-color-primary-teal-primary);
   font-size: 16px;
   margin-top: var(--dl-space-space-unit);
@@ -967,7 +969,7 @@ export default {
   text-align: center;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.home-button6 {
+.home-button4 {
   color: var(--dl-color-primary-teal-primary);
   font-size: 16px;
   margin-top: var(--dl-space-space-unit);
@@ -1006,18 +1008,15 @@ export default {
 }
 .home-image3 {
   width: 199px;
-  height: 60px;
   object-fit: cover;
+}
+.home-text92 {
+  color: var(--dl-color-gray-white);
 }
 .home-container16 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.home-text92 {
-  color: var(--dl-color-gray-white);
-  padding-left: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-unit);
 }
 .home-text93 {
   color: var(--dl-color-gray-white);
@@ -1041,6 +1040,8 @@ export default {
 }
 .home-text97 {
   color: var(--dl-color-gray-white);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
 }
 @media(max-width: 991px) {
   .home-icon {

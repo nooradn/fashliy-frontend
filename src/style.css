@@ -44,6 +44,9 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
+.button:hover {
+  cursor: pointer;
+}
 .input {
   color: var(--dl-color-gray-black);
   cursor: auto;

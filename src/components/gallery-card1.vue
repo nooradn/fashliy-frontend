@@ -9,7 +9,6 @@
 export default {
   name: 'GalleryCard1',
   props: {
-    rootClassName: String,
     image_alt: {
       type: String,
       default: 'image',
@@ -18,6 +17,7 @@ export default {
       type: String,
       default: 'Video',
     },
+    rootClassName: String,
     image_src: {
       type: String,
       default: '/playground_assets/frame%2017-1200h.png',

@@ -14,11 +14,11 @@
 export default {
   name: 'Lecture',
   props: {
+    rootClassName: String,
     text: {
       type: String,
       default: 'Lorem Ipsum',
     },
-    rootClassName: String,
   },
 }
 </script>
