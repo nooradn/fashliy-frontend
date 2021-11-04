@@ -1,28 +1,38 @@
 <template>
   <div class="login-page-container">
-    <div class="login-page-container1">
-      <div class="login-page-container2">
-        <div class="login-page-container3">
+    <div class="login-page-bg">
+      <div class="login-page-pdd">
+        <div class="login-page-ctt">
           <img
-            src="/playground_assets/logotext-fill-1200h.png"
             alt="image"
+            src="/playground_assets/logotext-fill-1200h.png"
             class="login-page-image"
           />
-          <div class="login-page-container4">
+          <div class="login-page-container1">
             <span class="login-page-text">Alamat Email</span>
-            <form class="login-page-form"></form>
+            <input
+              type="email"
+              placeholder="Tulis email disini..."
+              required="true"
+              class="login-page-textinput input"
+            />
           </div>
-          <div class="login-page-container5">
+          <div class="login-page-container2">
             <span class="login-page-text1">Password</span>
-            <form class="login-page-form1"></form>
+            <input
+              type="password"
+              placeholder="Ketik password disini..."
+              required="true"
+              class="login-page-textinput1 input"
+            />
             <span class="login-page-text2">Lupa Password</span>
           </div>
           <router-link to="/video-course" class="login-page-navlink">
-            <div class="login-page-container6">
+            <div class="login-page-container3">
               <span class="login-page-text3">Masuk</span>
             </div>
           </router-link>
-          <div class="login-page-container7">
+          <div class="login-page-container4">
             <span class="login-page-text4">Daftar</span>
           </div>
         </div>
@@ -34,15 +44,7 @@
 <script>
 export default {
   name: 'LoginPage',
-  metaInfo: {
-    title: 'login-page - New Project',
-    meta: [
-      {
-        property: 'og:title',
-        content: 'login-page - New Project',
-      },
-    ],
-  },
+  props: {},
 }
 </script>
 
@@ -55,7 +57,7 @@ export default {
   align-items: center;
   flex-direction: column;
 }
-.login-page-container1 {
+.login-page-bg {
   flex: 1;
   width: 100%;
   height: 100%;
@@ -66,23 +68,22 @@ export default {
   justify-content: center;
   background-color: var(--dl-color-primary-teal-primary);
 }
-.login-page-container2 {
+.login-page-pdd {
   flex: 0 0 auto;
-  width: var(--dl-size-size-xxlarge);
   height: 100%;
   display: flex;
+  box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.5);
   align-items: center;
   border-radius: 20px;
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.login-page-container3 {
+.login-page-ctt {
   flex: 0 0 auto;
-  width: 100%;
+  width: 400px;
   display: flex;
-  margin-top: var(--dl-space-space-twounits);
+  padding: var(--dl-space-space-twounits);
   align-items: center;
-  margin-bottom: var(--dl-space-space-twounits);
   flex-direction: column;
   justify-content: center;
 }
@@ -92,49 +93,63 @@ export default {
   object-fit: cover;
   margin-left: 0px;
   margin-right: 0px;
-  margin-bottom: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-twounits);
 }
-.login-page-container4 {
+.login-page-container1 {
+  width: 100%;
   display: flex;
+  margin-top: var(--dl-space-space-halfunit);
   align-items: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit);
   flex-direction: column;
   justify-content: center;
 }
 .login-page-text {
-  font-size: 0.7rem;
+  font-size: 1rem;
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.login-page-form {
-  width: 200px;
-  height: 30px;
+.login-page-textinput {
+  width: 100%;
+  font-size: 16px;
+  align-self: stretch;
+  padding-top: 1rem;
   border-color: var(--dl-color-primary-teal-primary);
-  border-width: 1px;
+  padding-left: 2rem;
   border-radius: 20px;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
 }
-.login-page-container5 {
+.login-page-container2 {
+  width: 100%;
   display: flex;
+  margin-top: var(--dl-space-space-halfunit);
   align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
   justify-content: center;
 }
 .login-page-text1 {
-  font-size: 0.7rem;
+  font-size: 1rem;
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.login-page-form1 {
-  width: 200px;
-  height: 30px;
+.login-page-textinput1 {
+  width: 100%;
+  font-size: 16px;
+  align-self: stretch;
+  padding-top: 1rem;
   border-color: var(--dl-color-primary-teal-primary);
-  border-width: 1px;
+  padding-left: 2rem;
   border-radius: 20px;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
 }
 .login-page-text2 {
   color: var(--dl-color-primary-teal-primary);
-  font-size: 7px;
+  font-size: 12px;
   align-self: flex-end;
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 700;
@@ -143,12 +158,12 @@ export default {
 .login-page-navlink {
   display: contents;
 }
-.login-page-container6 {
+.login-page-container3 {
   flex: 0 0 auto;
-  width: 200px;
-  height: 30px;
+  width: 100%;
+  height: 3rem;
+  margin: var(--dl-space-space-halfunit);
   display: flex;
-  margin-top: var(--dl-space-space-halfunit);
   align-items: center;
   border-color: var(--dl-color-primary-teal-primary);
   border-style: solid;
@@ -163,12 +178,12 @@ export default {
   color: var(--dl-color-gray-white);
   font-weight: 700;
 }
-.login-page-container7 {
+.login-page-container4 {
   flex: 0 0 auto;
-  width: 200px;
-  height: 30px;
+  width: 100%;
+  height: 3rem;
+  margin: var(--dl-space-space-halfunit);
   display: flex;
-  margin-top: var(--dl-space-space-halfunit);
   align-items: center;
   border-color: var(--dl-color-primary-teal-primary);
   border-style: solid;
@@ -183,10 +198,10 @@ export default {
   font-weight: 700;
 }
 @media(max-width: 479px) {
-  .login-page-container2 {
+  .login-page-pdd {
     width: auto;
   }
-  .login-page-container3 {
+  .login-page-ctt {
     margin-left: var(--dl-space-space-twounits);
     margin-right: var(--dl-space-space-twounits);
   }
@@ -196,28 +211,20 @@ export default {
   .login-page-text {
     font-size: 12px;
   }
-  .login-page-form {
-    width: 250px;
-    height: 40px;
-  }
-  .login-page-container5 {
+  .login-page-container2 {
     margin-bottom: var(--dl-space-space-unit);
   }
   .login-page-text1 {
     font-size: 12px;
   }
-  .login-page-form1 {
-    width: 250px;
-    height: 40px;
-  }
   .login-page-text2 {
     font-size: 10px;
   }
-  .login-page-container6 {
+  .login-page-container3 {
     width: 250px;
     height: 40px;
   }
-  .login-page-container7 {
+  .login-page-container4 {
     width: 250px;
     height: 40px;
   }
