@@ -3,7 +3,7 @@
     <div class="register-page-bg">
       <div class="register-page-pdd">
         <div class="register-page-ctt">
-          <router-link to="/" class="register-page-navlink">
+          <router-link to="/home" class="register-page-navlink">
             <img
               alt="image"
               src="/playground_assets/logotext-fill-1200h.png"
@@ -95,16 +95,44 @@
                   class="register-page-textinput8 input"
                 />
               </div>
+              <div class="register-page-container13">
+                <input
+                  type="checkbox"
+                  required="true"
+                  id="register"
+                  name="register"
+                  class="register-page-checkbox"
+                />
+                <span class="register-page-text09">
+                  <span>
+                    Saya telah menyetujui
+                    <span v-html="rawy647"></span>
+                  </span>
+                  <span class="register-page-text11">kebijakan penggunaan</span>
+                  <span class="register-page-text12">
+                    <span v-html="rawlr37"></span>
+                  </span>
+                  <span>
+                    dan
+                    <span v-html="rawbuez"></span>
+                  </span>
+                  <span class="register-page-text14">kebijakan privasi</span>
+                  <span class="register-page-text15">
+                    <span v-html="rawad1m"></span>
+                  </span>
+                  <span>atas platform Fashliy.</span>
+                </span>
+              </div>
             </div>
           </div>
           <router-link to="/video-course" class="register-page-navlink1">
-            <div class="register-page-container13">
-              <span class="register-page-text09">Daftar</span>
+            <div class="register-page-container14">
+              <span class="register-page-text17">Daftar</span>
             </div>
           </router-link>
           <router-link to="/login-page" class="register-page-navlink2">
-            <div class="register-page-container14">
-              <span class="register-page-text10">Masuk</span>
+            <div class="register-page-container15">
+              <span class="register-page-text18">Masuk</span>
             </div>
           </router-link>
         </div>
@@ -116,14 +144,15 @@
 <script>
 export default {
   name: 'RegisterPage',
-  metaInfo: {
-    title: 'register-page - Fashliy - Islamic Learning Platform',
-    meta: [
-      {
-        property: 'og:title',
-        content: 'register-page - Fashliy - Islamic Learning Platform',
-      },
-    ],
+  props: {},
+
+  data() {
+    return {
+      rawy647: ' ',
+      rawlr37: ' ',
+      rawbuez: ' ',
+      rawad1m: ' ',
+    }
   },
 }
 </script>
@@ -438,30 +467,40 @@ export default {
   padding-right: 2rem;
   padding-bottom: 1rem;
 }
-.register-page-navlink1 {
-  display: contents;
-}
 .register-page-container13 {
   flex: 0 0 auto;
   width: 100%;
-  height: 3rem;
-  margin: var(--dl-space-space-halfunit);
+  height: 100px;
   display: flex;
   align-items: center;
-  border-color: var(--dl-color-primary-teal-primary);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 20px;
-  flex-direction: column;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
   justify-content: center;
-  text-decoration: none;
-  background-color: var(--dl-color-primary-teal-primary);
+}
+.register-page-checkbox {
+  width: 35px;
+  height: 35px;
 }
 .register-page-text09 {
-  color: var(--dl-color-gray-white);
-  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-left: var(--dl-space-space-unit);
 }
-.register-page-navlink2 {
+.register-page-text11 {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.register-page-text12 {
+  text-decoration: underline;
+}
+.register-page-text14 {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.register-page-text15 {
+  text-decoration: underline;
+}
+.register-page-navlink1 {
   display: contents;
 }
 .register-page-container14 {
@@ -478,9 +517,32 @@ export default {
   flex-direction: column;
   justify-content: center;
   text-decoration: none;
+  background-color: var(--dl-color-primary-teal-primary);
+}
+.register-page-text17 {
+  color: var(--dl-color-gray-white);
+  font-weight: 700;
+}
+.register-page-navlink2 {
+  display: contents;
+}
+.register-page-container15 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 3rem;
+  margin: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  border-color: var(--dl-color-primary-teal-primary);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
   background-color: var(--dl-color-gray-white);
 }
-.register-page-text10 {
+.register-page-text18 {
   color: var(--dl-color-primary-teal-primary);
   font-weight: 700;
 }
@@ -540,11 +602,11 @@ export default {
   .register-page-text08 {
     font-size: 12px;
   }
-  .register-page-container13 {
+  .register-page-container14 {
     width: 250px;
     height: 40px;
   }
-  .register-page-container14 {
+  .register-page-container15 {
     width: 250px;
     height: 40px;
   }
