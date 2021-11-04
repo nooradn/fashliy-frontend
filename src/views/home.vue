@@ -31,7 +31,7 @@
               <img
                 alt="image"
                 src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
-                class="home-image1"
+                class="home-image01"
               />
               <div class="teleport-menu-close">
                 <svg viewBox="0 0 1024 1024" class="home-icon02">
@@ -66,12 +66,12 @@
         <h1 class="home-text003">
           <span>
             Belajar Ilmu Agama lebih
-            <span v-html="rawxcq0"></span>
+            <span v-html="raw404t"></span>
           </span>
           <span class="home-text005">mudah</span>
           <span>
             dan
-            <span v-html="rawss0w"></span>
+            <span v-html="rawyds0"></span>
           </span>
           <span class="home-text007">terarah.</span>
         </h1>
@@ -82,14 +82,14 @@
       <img
         alt="image"
         src="/playground_assets/group%20211-500w.png"
-        class="home-image2"
+        class="home-image02"
       />
     </div>
     <div class="home-features">
       <h1 class="home-text008">
         <span>
           Materi Belajar
-          <span v-html="raw18tw"></span>
+          <span v-html="rawwv5e"></span>
         </span>
         <span class="home-text010">Unggulan</span>
         <br />
@@ -100,94 +100,117 @@
       </span>
       <div class="home-container04">
         <div class="home-feature-card">
-          <svg viewBox="0 0 1024 1024" class="home-icon10">
-            <path
-              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
-            ></path>
-          </svg>
+          <img
+            src="/playground_assets/image%205%20%5Btraced%5D.svg"
+            alt="image"
+            class="home-image03"
+          />
           <h2 class="home-text014">Tafsir</h2>
           <span class="home-text015">Lorem Ipsum</span>
         </div>
         <div class="home-feature-card1">
-          <svg viewBox="0 0 1024 1024" class="home-icon12">
-            <path
-              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
-            ></path>
-          </svg>
+          <img
+            src="/playground_assets/image%204%20%5Btraced%5D.svg"
+            alt="image"
+            class="home-image04"
+          />
           <h2 class="home-text016">Hadits</h2>
           <span class="home-text017">Lorem Ipsum</span>
         </div>
         <div class="home-feature-card2">
-          <svg viewBox="0 0 1024 1024" class="home-icon14">
-            <path
-              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
-            ></path>
-          </svg>
+          <img
+            src="/playground_assets/image%207%20%5Btraced%5D.svg"
+            alt="image"
+            class="home-image05"
+          />
           <h2 class="home-text018">Fiqih</h2>
           <span class="home-text019">Lorem Ipsum</span>
         </div>
       </div>
       <div class="home-container05">
         <div class="home-feature-card3">
-          <svg viewBox="0 0 1024 1024" class="home-icon16">
-            <path
-              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
-            ></path>
-          </svg>
+          <img
+            src="/playground_assets/image%202%20%5Btraced%5D.svg"
+            alt="image"
+            class="home-image06"
+          />
           <h2 class="home-text020">Akidah Akhlak</h2>
         </div>
         <div class="home-feature-card4">
-          <svg viewBox="0 0 1024 1024" class="home-icon18">
-            <path
-              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
-            ></path>
-          </svg>
+          <img
+            src="/playground_assets/image%208%20%5Btraced%5D.svg"
+            alt="image"
+            class="home-image07"
+          />
           <h2 class="home-text021">Bahasa Arab</h2>
         </div>
         <div class="home-feature-card5">
-          <svg viewBox="0 0 1024 1024" class="home-icon20">
-            <path
-              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
-            ></path>
-          </svg>
+          <img
+            src="/playground_assets/image%209%20%5Btraced%5D.svg"
+            alt="image"
+            class="home-image08"
+          />
           <h2 class="home-text022">
             <span class="home-text023">
               Sejarah
-              <span v-html="raw4k1h"></span>
+              <span v-html="rawv5eu"></span>
             </span>
             <br />
             <span class="home-text025">Kebudayaan Islam</span>
           </h2>
         </div>
         <div class="home-feature-card6">
-          <svg viewBox="0 0 1024 1024" class="home-icon22">
-            <path
-              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
-            ></path>
-          </svg>
+          <img
+            src="/playground_assets/image%2010%20%5Btraced%5D.svg"
+            alt="image"
+            class="home-image09"
+          />
           <h2 class="home-text026">
             <span class="home-text027">
               Kajian-Kajian
-              <span v-html="rawbpvu"></span>
+              <span v-html="rawkq0s"></span>
             </span>
             <br />
             <span class="home-text029">Islam</span>
           </h2>
         </div>
       </div>
+      <div class="home-container06">
+        <span class="home-text030">Icons made by</span>
+        <a
+          href="https://www.freepik.com"
+          target="_blank"
+          rel="noreferrer noopener"
+          class="home-link"
+        >
+          Freepik
+        </a>
+        <span class="home-text031">
+          from
+          <span v-html="rawxs45"></span>
+        </span>
+        <a
+          href="https://www.flaticon.com/"
+          target="_blank"
+          rel="noreferrer noopener"
+          class="home-link1"
+        >
+          Flaticon
+        </a>
+      </div>
     </div>
-    <div class="home-container06">
-      <div class="home-container07">
-        <h1 class="home-text030">
+    <div class="home-container07">
+      <div class="home-container08">
+        <h1 class="home-text032">
           <span>
             Video Materi
-            <span v-html="raw4bb5"></span>
+            <span v-html="rawaum3"></span>
           </span>
-          <span class="home-text032">Berkualitas</span>
+          <span class="home-text034">Berkualitas</span>
           <br />
           <span></span>
         </h1>
-        <span class="home-text034">
+        <span class="home-text036">
           <span>Kami berkomitmen untuk selalu memberikan kualitas terbaik.</span>
           <br />
           <span>Berikut beberapa contoh video.</span>
@@ -203,91 +226,91 @@
       </div>
     </div>
     <div class="home-pricing">
-      <div class="home-container08">
-        <h1 class="home-text037">
+      <div class="home-container09">
+        <h1 class="home-text039">
           <span>
             Paket Hemat,
-            <span v-html="rawb6mw"></span>
+            <span v-html="rawr656"></span>
           </span>
-          <span class="home-text039">Bersahabat!</span>
+          <span class="home-text041">Bersahabat!</span>
           <br />
           <span></span>
         </h1>
-        <span class="home-text041">
+        <span class="home-text043">
           <span>Lorem ipsum dolor sit amet todo amectus dolor.</span>
         </span>
       </div>
-      <div class="home-container09">
+      <div class="home-container10">
         <div class="home-pricing-card">
-          <span class="home-text043">Santri baru</span>
-          <div class="home-container10">
-            <span class="home-text044">Gratis</span>
-          </div>
+          <span class="home-text045">Santri baru</span>
           <div class="home-container11">
-            <span class="home-text045">
+            <span class="home-text046">Gratis</span>
+          </div>
+          <div class="home-container12">
+            <span class="home-text047">
               <span>✔ Full access to designtool</span>
             </span>
-            <span class="home-text047"><span>✔ Publish with Teleport</span></span>
-            <span class="home-text049"><span>✔ Subdomain publish</span></span>
-            <span class="home-text051"><span>✔ Download code</span></span>
+            <span class="home-text049"><span>✔ Publish with Teleport</span></span>
+            <span class="home-text051"><span>✔ Subdomain publish</span></span>
+            <span class="home-text053"><span>✔ Download code</span></span>
           </div>
           <button class="home-button1 button">
-            <span class="home-text053"><span>Daftar Sekarang</span></span>
+            <span class="home-text055"><span>Daftar Sekarang</span></span>
           </button>
         </div>
         <div class="home-pricing-card1">
-          <span class="home-text055"><span>Santri Pro</span></span>
-          <div class="home-container12">
-            <span class="home-text057"><span>Rp.</span></span>
-            <span class="home-text059">29</span>
-            <span class="home-text060"><span>ribu</span></span>
-          </div>
-          <span class="home-text062"><span>PER BULAN</span></span>
+          <span class="home-text057"><span>Santri Pro</span></span>
           <div class="home-container13">
-            <span class="home-text064">
+            <span class="home-text059"><span>Rp.</span></span>
+            <span class="home-text061">29</span>
+            <span class="home-text062"><span>ribu</span></span>
+          </div>
+          <span class="home-text064"><span>PER BULAN</span></span>
+          <div class="home-container14">
+            <span class="home-text066">
               <span>✔ All features of Santri Baru</span>
             </span>
-            <span class="home-text066">
+            <span class="home-text068">
               <span>✔ Connect to custom domain</span>
             </span>
-            <span class="home-text068"><span>✔ Private projects</span></span>
-            <span class="home-text070">
+            <span class="home-text070"><span>✔ Private projects</span></span>
+            <span class="home-text072">
               <span>✔ No project limitations</span>
             </span>
-            <span class="home-text072"><span>✔ Unlimited Users</span></span>
+            <span class="home-text074"><span>✔ Unlimited Users</span></span>
           </div>
           <button class="home-button2 button">
-            <span class="home-text074"><span>Coba Gratis 7 Hari</span></span>
+            <span class="home-text076"><span>Coba Gratis 7 Hari</span></span>
           </button>
         </div>
         <div class="home-pricing-card2">
-          <span class="home-text076">
+          <span class="home-text078">
             Santri Expert
-            <span v-html="rawcsce"></span>
+            <span v-html="rawafou"></span>
           </span>
-          <div class="home-container14">
-            <span class="home-text077"><span>Rp.</span></span>
-            <span class="home-text079">299</span>
-            <span class="home-text080"><span>ribu</span></span>
-          </div>
-          <span class="home-text082"><span>PER TAHUN</span></span>
           <div class="home-container15">
-            <span class="home-text084">
+            <span class="home-text079"><span>Rp.</span></span>
+            <span class="home-text081">299</span>
+            <span class="home-text082"><span>ribu</span></span>
+          </div>
+          <span class="home-text084"><span>PER TAHUN</span></span>
+          <div class="home-container16">
+            <span class="home-text086">
               <span>✔ All features of Santri Pro</span>
             </span>
-            <span class="home-text086"><span>✔ Priority support</span></span>
-            <span class="home-text088"><span>✔ Premium analytics</span></span>
-            <span class="home-text090"><span>✔ Version history</span></span>
+            <span class="home-text088"><span>✔ Priority support</span></span>
+            <span class="home-text090"><span>✔ Premium analytics</span></span>
+            <span class="home-text092"><span>✔ Version history</span></span>
           </div>
           <button class="home-button3 button">
-            <span class="home-text092">Coba Gratis 7 Hari</span>
+            <span class="home-text094">Coba Gratis 7 Hari</span>
           </button>
         </div>
       </div>
     </div>
     <div class="home-banner">
-      <h1 class="home-text093">Tunggu Apa Lagi?</h1>
-      <span class="home-text094">
+      <h1 class="home-text095">Tunggu Apa Lagi?</h1>
+      <span class="home-text096">
         <span>
           <span>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
@@ -296,30 +319,30 @@
             elit. Sed non volutpat turpis. Mauris luctus rutrum mi ut rhoncus.
             Integer in dignissim tortor. Sed non volutpat turpis. Mauris luctus
             rutrum mi ut rhoncus. Integer in dignissim ortor.
-            <span v-html="rawgm1w"></span>
+            <span v-html="rawx3bv"></span>
           </span>
-          <span><span v-html="rawpf5n"></span></span>
+          <span><span v-html="rawh78r"></span></span>
         </span>
       </span>
       <router-link to="/login-page" class="home-navlink2 button">
-        <span class="home-text098"><span>Daftar Sekarang</span></span>
+        <span class="home-text100"><span>Daftar Sekarang</span></span>
       </router-link>
     </div>
-    <div class="home-container16">
+    <div class="home-container17">
       <footer class="home-footer">
         <img
           alt="logo"
           src="/playground_assets/logotext-fill.svg"
-          class="home-image3"
+          class="home-image10"
         />
-        <div class="home-container17">
-          <span class="home-text100">Tentang</span>
-          <span class="home-text101">Katalog</span>
-          <span class="home-text102">Karir</span>
-          <span class="home-text103">Kebijakan Privasi</span>
-          <span class="home-text104">Bantuan</span>
+        <div class="home-container18">
+          <span class="home-text102">Tentang</span>
+          <span class="home-text103">Katalog</span>
+          <span class="home-text104">Karir</span>
+          <span class="home-text105">Kebijakan Privasi</span>
+          <span class="home-text106">Bantuan</span>
         </div>
-        <span class="home-text105">© 2021 Fashliy, Hak Cipta Dilindungi.</span>
+        <span class="home-text107">© 2021 Fashliy, Hak Cipta Dilindungi.</span>
       </footer>
     </div>
   </div>
@@ -338,16 +361,17 @@ export default {
 
   data() {
     return {
-      rawxcq0: ' ',
-      rawss0w: ' ',
-      raw18tw: ' ',
-      raw4k1h: ' ',
-      rawbpvu: ' ',
-      raw4bb5: ' ',
-      rawb6mw: ' ',
-      rawcsce: ' ',
-      rawgm1w: ' ',
-      rawpf5n: ' ',
+      raw404t: ' ',
+      rawyds0: ' ',
+      rawwv5e: ' ',
+      rawv5eu: ' ',
+      rawkq0s: ' ',
+      rawxs45: ' ',
+      rawaum3: ' ',
+      rawr656: ' ',
+      rawafou: ' ',
+      rawx3bv: ' ',
+      rawh78r: ' ',
     }
   },
 
@@ -466,7 +490,7 @@ export default {
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.home-image1 {
+.home-image01 {
   height: 2rem;
 }
 .home-icon02 {
@@ -541,7 +565,7 @@ export default {
   color: var(--dl-color-gray-white);
   background-color: var(--dl-color-gray-black);
 }
-.home-image2 {
+.home-image02 {
   width: 469px;
   height: 266px;
   object-fit: cover;
@@ -574,7 +598,7 @@ export default {
 }
 .home-container04 {
   flex: 0 0 auto;
-  width: 100%;
+  width: 80%;
   display: flex;
   align-items: stretch;
   flex-direction: row;
@@ -590,11 +614,9 @@ export default {
   flex-direction: column;
   padding-bottom: var(--dl-space-space-twounits);
 }
-.home-icon10 {
-  fill: var(--dl-color-primary-teal-primary);
-  flex: 1;
-  width: var(--dl-size-size-medium);
-  height: var(--dl-size-size-medium);
+.home-image03 {
+  width: 100px;
+  object-fit: cover;
 }
 .home-text014 {
   font-style: normal;
@@ -617,11 +639,9 @@ export default {
   flex-direction: column;
   padding-bottom: var(--dl-space-space-twounits);
 }
-.home-icon12 {
-  fill: var(--dl-color-primary-teal-primary);
-  flex: 1;
-  width: var(--dl-size-size-medium);
-  height: var(--dl-size-size-medium);
+.home-image04 {
+  width: 100px;
+  object-fit: cover;
 }
 .home-text016 {
   font-style: normal;
@@ -644,11 +664,9 @@ export default {
   flex-direction: column;
   padding-bottom: var(--dl-space-space-twounits);
 }
-.home-icon14 {
-  fill: var(--dl-color-primary-teal-primary);
-  flex: 1;
-  width: var(--dl-size-size-medium);
-  height: var(--dl-size-size-medium);
+.home-image05 {
+  width: 100px;
+  object-fit: cover;
 }
 .home-text018 {
   font-style: normal;
@@ -663,7 +681,7 @@ export default {
 }
 .home-container05 {
   flex: 0 0 auto;
-  width: 100%;
+  width: 90%;
   display: flex;
   margin-top: var(--dl-space-space-threeunits);
   align-items: flex-start;
@@ -674,17 +692,16 @@ export default {
   display: flex;
   align-items: center;
   padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
-.home-icon16 {
-  fill: var(--dl-color-primary-teal-primary);
-  flex: 1;
-  width: var(--dl-size-size-small);
-  height: var(--dl-size-size-small);
+.home-image06 {
+  height: 70px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-unit);
 }
 .home-text020 {
   font-size: 1.3em;
@@ -698,17 +715,16 @@ export default {
   display: flex;
   align-items: center;
   padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
-.home-icon18 {
-  fill: var(--dl-color-primary-teal-primary);
-  flex: 1;
-  width: var(--dl-size-size-small);
-  height: var(--dl-size-size-small);
+.home-image07 {
+  height: 70px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-unit);
 }
 .home-text021 {
   font-size: 1.3em;
@@ -722,17 +738,16 @@ export default {
   display: flex;
   align-items: center;
   padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
-.home-icon20 {
-  fill: var(--dl-color-primary-teal-primary);
-  flex: 1;
-  width: var(--dl-size-size-small);
-  height: var(--dl-size-size-small);
+.home-image08 {
+  height: 70px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-unit);
 }
 .home-text022 {
   font-size: 1.3em;
@@ -752,17 +767,16 @@ export default {
   display: flex;
   align-items: center;
   padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
-.home-icon22 {
-  fill: var(--dl-color-primary-teal-primary);
-  flex: 1;
-  width: var(--dl-size-size-small);
-  height: var(--dl-size-size-small);
+.home-image09 {
+  height: 70px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-unit);
 }
 .home-text026 {
   font-size: 1.3em;
@@ -778,6 +792,35 @@ export default {
   font-style: normal;
 }
 .home-container06 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.home-text030 {
+  opacity: 0.2;
+  margin-top: var(--dl-space-space-twounits);
+}
+.home-link {
+  opacity: 0.2;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 700;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.home-text031 {
+  opacity: 0.2;
+  margin-top: var(--dl-space-space-twounits);
+}
+.home-link1 {
+  opacity: 0.2;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 700;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.home-container07 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -786,20 +829,20 @@ export default {
   flex-direction: column;
   justify-content: center;
 }
-.home-container07 {
+.home-container08 {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.home-text030 {
+.home-text032 {
   font-size: 46px;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text032 {
+.home-text034 {
   color: var(--dl-color-primary-teal-primary);
 }
-.home-text034 {
+.home-text036 {
   color: var(--dl-color-gray-700);
   font-size: 1.15rem;
   text-align: center;
@@ -826,26 +869,26 @@ export default {
   padding-bottom: var(--dl-space-space-threeunits);
   justify-content: center;
 }
-.home-container08 {
+.home-container09 {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.home-text037 {
+.home-text039 {
   font-size: 46px;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text039 {
+.home-text041 {
   color: var(--dl-color-primary-teal-primary);
 }
-.home-text041 {
+.home-text043 {
   color: var(--dl-color-gray-700);
   font-size: 1.15rem;
   text-align: center;
   padding-bottom: var(--dl-space-space-twounits);
 }
-.home-container09 {
+.home-container10 {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -880,33 +923,30 @@ export default {
 .home-pricing-card:hover {
   transform: scale(1.02);
 }
-.home-text043 {
+.home-text045 {
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 900;
   margin-bottom: var(--dl-space-space-twounits);
   text-transform: capitalize;
 }
-.home-container10 {
+.home-container11 {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.home-text044 {
+.home-text046 {
   color: var(--dl-color-primary-teal-primary);
   font-size: 3rem;
   font-weight: 700;
 }
-.home-container11 {
+.home-container12 {
   display: flex;
   align-items: flex-start;
   margin-right: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
-}
-.home-text045 {
-  margin-bottom: var(--dl-space-space-unit);
 }
 .home-text047 {
   margin-bottom: var(--dl-space-space-unit);
@@ -915,6 +955,9 @@ export default {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-text051 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text053 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-button1 {
@@ -931,7 +974,7 @@ export default {
   padding-bottom: var(--dl-space-space-unit);
   background-color: var(--dl-color-gray-white);
 }
-.home-text053 {
+.home-text055 {
   font-weight: 700;
 }
 .home-pricing-card1 {
@@ -954,49 +997,46 @@ export default {
 .home-pricing-card1:hover {
   transform: scale(1.02);
 }
-.home-text055 {
+.home-text057 {
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 900;
   margin-bottom: var(--dl-space-space-twounits);
   text-transform: capitalize;
 }
-.home-container12 {
+.home-container13 {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text057 {
+.home-text059 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.home-text059 {
+.home-text061 {
   color: var(--dl-color-primary-teal-primary);
   font-size: 4rem;
   font-weight: 700;
 }
-.home-text060 {
+.home-text062 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.home-text062 {
+.home-text064 {
   color: var(--dl-color-gray-500);
   font-size: 1.3rem;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.home-container13 {
+.home-container14 {
   display: flex;
   align-items: flex-start;
   margin-right: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
-}
-.home-text064 {
-  margin-bottom: var(--dl-space-space-unit);
 }
 .home-text066 {
   margin-bottom: var(--dl-space-space-unit);
@@ -1008,6 +1048,9 @@ export default {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-text072 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text074 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-button2 {
@@ -1024,7 +1067,7 @@ export default {
   padding-bottom: var(--dl-space-space-unit);
   background-color: var(--dl-color-primary-teal-primary);
 }
-.home-text074 {
+.home-text076 {
   font-weight: 700;
 }
 .home-pricing-card2 {
@@ -1049,49 +1092,46 @@ export default {
 .home-pricing-card2:hover {
   transform: scale(1.02);
 }
-.home-text076 {
+.home-text078 {
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 900;
   margin-bottom: var(--dl-space-space-twounits);
   text-transform: capitalize;
 }
-.home-container14 {
+.home-container15 {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text077 {
+.home-text079 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.home-text079 {
+.home-text081 {
   color: var(--dl-color-primary-teal-primary);
   font-size: 4rem;
   font-weight: 700;
 }
-.home-text080 {
+.home-text082 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.home-text082 {
+.home-text084 {
   color: var(--dl-color-gray-500);
   font-size: 1.3rem;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.home-container15 {
+.home-container16 {
   display: flex;
   align-items: flex-start;
   margin-right: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
-}
-.home-text084 {
-  margin-bottom: var(--dl-space-space-unit);
 }
 .home-text086 {
   margin-bottom: var(--dl-space-space-unit);
@@ -1100,6 +1140,9 @@ export default {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-text090 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text092 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-button3 {
@@ -1116,7 +1159,7 @@ export default {
   padding-bottom: var(--dl-space-space-unit);
   background-color: var(--dl-color-gray-white);
 }
-.home-text092 {
+.home-text094 {
   font-weight: 700;
 }
 .home-banner {
@@ -1128,12 +1171,12 @@ export default {
   justify-content: space-between;
   background-color: var(--dl-color-primary-teal-primary);
 }
-.home-text093 {
+.home-text095 {
   color: var(--dl-color-gray-white);
   font-size: 3rem;
   text-align: center;
 }
-.home-text094 {
+.home-text096 {
   color: var(--dl-color-gray-white);
   opacity: 0.5;
   max-width: 720px;
@@ -1156,10 +1199,10 @@ export default {
   text-decoration: none;
   background-color: var(--dl-color-gray-white);
 }
-.home-text098 {
+.home-text100 {
   font-weight: 700;
 }
-.home-container16 {
+.home-container17 {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-twounits);
@@ -1179,24 +1222,14 @@ export default {
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.home-image3 {
+.home-image10 {
   width: 199px;
   object-fit: cover;
 }
-.home-container17 {
+.home-container18 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.home-text100 {
-  color: var(--dl-color-gray-white);
-  padding-left: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-unit);
-}
-.home-text101 {
-  color: var(--dl-color-gray-white);
-  padding-left: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-unit);
 }
 .home-text102 {
   color: var(--dl-color-gray-white);
@@ -1214,6 +1247,16 @@ export default {
   padding-right: var(--dl-space-space-unit);
 }
 .home-text105 {
+  color: var(--dl-color-gray-white);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+}
+.home-text106 {
+  color: var(--dl-color-gray-white);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+}
+.home-text107 {
   color: var(--dl-color-gray-white);
 }
 @media(max-width: 991px) {
@@ -1238,19 +1281,19 @@ export default {
   .home-text012 {
     text-align: center;
   }
-  .home-text030 {
+  .home-text032 {
     text-align: center;
   }
-  .home-text034 {
+  .home-text036 {
     text-align: center;
   }
   .home-gallery {
     grid-template-columns: 1fr 1fr;
   }
-  .home-text037 {
+  .home-text039 {
     text-align: center;
   }
-  .home-text041 {
+  .home-text043 {
     text-align: center;
   }
   .home-pricing-card {
@@ -1269,7 +1312,7 @@ export default {
     max-width: 100%;
     align-items: center;
   }
-  .home-text094 {
+  .home-text096 {
     max-width: 100%;
   }
 }
@@ -1305,17 +1348,17 @@ export default {
   .home-text008 {
     text-align: center;
   }
-  .home-text030 {
+  .home-text032 {
     text-align: center;
   }
   .home-gallery {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text037 {
+  .home-text039 {
     text-align: center;
   }
-  .home-container09 {
+  .home-container10 {
     flex-flow: column;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -1345,23 +1388,13 @@ export default {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text094 {
+  .home-text096 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
   .home-footer {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
-  }
-  .home-text100 {
-    text-align: center;
-    margin-left: var(--dl-space-space-unit);
-    margin-right: var(--dl-space-space-unit);
-  }
-  .home-text101 {
-    text-align: center;
-    margin-left: var(--dl-space-space-unit);
-    margin-right: var(--dl-space-space-unit);
   }
   .home-text102 {
     text-align: center;
@@ -1379,6 +1412,16 @@ export default {
     margin-right: var(--dl-space-space-unit);
   }
   .home-text105 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .home-text106 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .home-text107 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
@@ -1422,7 +1465,7 @@ export default {
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .home-container09 {
+  .home-container10 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
@@ -1441,17 +1484,7 @@ export default {
     padding: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .home-image3 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .home-text100 {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .home-text101 {
-    margin-left: 0px;
-    margin-right: 0px;
+  .home-image10 {
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-text102 {
@@ -1470,6 +1503,16 @@ export default {
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-text105 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-text106 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-text107 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);

@@ -46,41 +46,18 @@
 </template>
 
 <script>
-const axios = require("axios").default;
-const config = require("../config.js").default;
-
 export default {
-  name: "LoginPage",
-
-  props: {},
-  data() {
-    return {
-      password: ``,
-      email: ``,
-    };
+  name: 'LoginPage',
+  metaInfo: {
+    title: 'login-page - Fashliy - Islamic Learning Platform',
+    meta: [
+      {
+        property: 'og:title',
+        content: 'login-page - Fashliy - Islamic Learning Platform',
+      },
+    ],
   },
-  methods: {
-    login() {
-      console.log(config.urls.userLogin())
-      axios
-        .post(config.urls.userLogin(), {
-          email: this.email,
-          password: this.password,
-        })
-        .then((res) => {
-          localStorage.setItem(config.localStorage.jwtToken, res.data.data.token)
-          if (res.status == 200) {
-            this.$router.push(`/video-course-dark`)
-          }
-        })
-        .catch((err) => {
-          console.log(err.response);
-          localStorage.removeItem(config.localStorage.jwtToken) // if the request fails, remove any possible user token if possible
-          alert(err);
-        });
-    },
-  },
-};
+}
 </script>
 
 <style scoped>

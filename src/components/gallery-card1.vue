@@ -20,7 +20,7 @@ export default {
     rootClassName: String,
     image_src: {
       type: String,
-      default: '/playground_assets/frame%2017-1200h.png',
+      default: '/playground_assets/frame%2015.svg',
     },
   },
 }

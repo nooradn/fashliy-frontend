@@ -7,7 +7,7 @@ import RegisterPage from './views/register-page'
 import Home from './views/home'
 import LoginPage from './views/login-page'
 import VideoCourse from './views/video-course'
-import Page1 from './views/page1'
+import Dashboard from './views/dashboard'
 import VideoCourseDark from './views/video-course-dark'
 import './style.css'
 
@@ -42,9 +42,9 @@ export default new Router({
       component: VideoCourse,
     },
     {
-      name: 'Page1',
-      path: '/page1',
-      component: Page1,
+      name: 'dashboard',
+      path: '/dashboard',
+      component: Dashboard,
     },
     {
       name: 'video-course-dark',

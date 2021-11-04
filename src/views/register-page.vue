@@ -27,7 +27,7 @@
                   type="date"
                   required="true"
                   placeholder="Tulis email disini..."
-                  class="register-page-textinput01 input"
+                  class="register-page-textinput1 input"
                 />
               </div>
               <div class="register-page-container05">
@@ -36,7 +36,7 @@
                   type="text"
                   required="true"
                   placeholder="Ketik password disini..."
-                  class="register-page-textinput02 input"
+                  class="register-page-textinput2 input"
                 />
               </div>
               <div class="register-page-container06">
@@ -45,7 +45,7 @@
                   type="text"
                   required="true"
                   placeholder="Ketik asal sekolahmu..."
-                  class="register-page-textinput03 input"
+                  class="register-page-textinput3 input"
                 />
               </div>
               <div class="register-page-container07">
@@ -54,66 +54,57 @@
                   type="text"
                   required="true"
                   placeholder="Ketik nomor hpmu disini..."
-                  class="register-page-textinput04 input"
+                  class="register-page-textinput4 input"
                 />
               </div>
             </div>
             <div class="register-page-container08">
               <div class="register-page-container09">
-                <span class="register-page-text05">Nama Lengkap</span>
+                <span class="register-page-text05">Buat Username</span>
                 <input
                   type="text"
                   required="true"
-                  placeholder="Tulis email disini..."
-                  class="register-page-textinput05 input"
+                  placeholder="Buat username yang unik..."
+                  class="register-page-textinput5 input"
                 />
               </div>
               <div class="register-page-container10">
-                <span class="register-page-text06">Tanggal Lahir</span>
+                <span class="register-page-text06">Alamat Email</span>
                 <input
-                  type="date"
+                  type="email"
                   required="true"
-                  placeholder="Tulis email disini..."
-                  class="register-page-textinput06 input"
+                  placeholder="Masukkan email disini..."
+                  class="register-page-textinput6 input"
                 />
               </div>
               <div class="register-page-container11">
-                <span class="register-page-text07">Alamat / Domisili</span>
+                <span class="register-page-text07">Password</span>
                 <input
-                  type="text"
+                  type="password"
                   required="true"
                   placeholder="Ketik password disini..."
-                  class="register-page-textinput07 input"
+                  class="register-page-textinput7 input"
                 />
               </div>
               <div class="register-page-container12">
-                <span class="register-page-text08">Asal Sekolah / Instansi</span>
+                <span class="register-page-text08">Konfirmasi Password</span>
                 <input
-                  type="text"
+                  type="password"
                   required="true"
-                  placeholder="Ketik password disini..."
-                  class="register-page-textinput08 input"
-                />
-              </div>
-              <div class="register-page-container13">
-                <span class="register-page-text09">Nomor HP / WhatsApp</span>
-                <input
-                  type="text"
-                  required="true"
-                  placeholder="Ketik password disini..."
-                  class="register-page-textinput09 input"
+                  placeholder="Ulangi password..."
+                  class="register-page-textinput8 input"
                 />
               </div>
             </div>
           </div>
           <router-link to="/video-course" class="register-page-navlink1">
-            <div class="register-page-container14">
-              <span class="register-page-text10">Daftar</span>
+            <div class="register-page-container13">
+              <span class="register-page-text09">Daftar</span>
             </div>
           </router-link>
           <router-link to="/login-page" class="register-page-navlink2">
-            <div class="register-page-container15">
-              <span class="register-page-text11">Masuk</span>
+            <div class="register-page-container14">
+              <span class="register-page-text10">Masuk</span>
             </div>
           </router-link>
         </div>
@@ -191,7 +182,7 @@ export default {
 .register-page-container01 {
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: row;
   justify-content: center;
 }
@@ -245,7 +236,7 @@ export default {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.register-page-textinput01 {
+.register-page-textinput1 {
   width: 100%;
   font-size: 16px;
   align-self: stretch;
@@ -271,7 +262,7 @@ export default {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.register-page-textinput02 {
+.register-page-textinput2 {
   width: 100%;
   font-size: 16px;
   align-self: stretch;
@@ -297,7 +288,7 @@ export default {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.register-page-textinput03 {
+.register-page-textinput3 {
   width: 100%;
   font-size: 16px;
   align-self: stretch;
@@ -323,7 +314,7 @@ export default {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.register-page-textinput04 {
+.register-page-textinput4 {
   width: 100%;
   font-size: 16px;
   align-self: stretch;
@@ -358,7 +349,7 @@ export default {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.register-page-textinput05 {
+.register-page-textinput5 {
   width: 100%;
   font-size: 16px;
   align-self: stretch;
@@ -374,7 +365,7 @@ export default {
   display: flex;
   margin-top: var(--dl-space-space-halfunit);
   align-items: flex-start;
-  margin-bottom: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
   justify-content: center;
 }
@@ -384,7 +375,7 @@ export default {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.register-page-textinput06 {
+.register-page-textinput6 {
   width: 100%;
   font-size: 16px;
   align-self: stretch;
@@ -410,7 +401,7 @@ export default {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.register-page-textinput07 {
+.register-page-textinput7 {
   width: 100%;
   font-size: 16px;
   align-self: stretch;
@@ -436,33 +427,7 @@ export default {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.register-page-textinput08 {
-  width: 100%;
-  font-size: 16px;
-  align-self: stretch;
-  padding-top: 1rem;
-  border-color: var(--dl-color-primary-teal-primary);
-  padding-left: 2rem;
-  border-radius: 20px;
-  padding-right: 2rem;
-  padding-bottom: 1rem;
-}
-.register-page-container13 {
-  width: 100%;
-  display: flex;
-  margin-top: var(--dl-space-space-halfunit);
-  align-items: flex-start;
-  margin-bottom: var(--dl-space-space-unit);
-  flex-direction: column;
-  justify-content: center;
-}
-.register-page-text09 {
-  font-size: 1rem;
-  margin-top: var(--dl-space-space-halfunit);
-  font-weight: 700;
-  margin-bottom: var(--dl-space-space-halfunit);
-}
-.register-page-textinput09 {
+.register-page-textinput8 {
   width: 100%;
   font-size: 16px;
   align-self: stretch;
@@ -474,6 +439,29 @@ export default {
   padding-bottom: 1rem;
 }
 .register-page-navlink1 {
+  display: contents;
+}
+.register-page-container13 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 3rem;
+  margin: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  border-color: var(--dl-color-primary-teal-primary);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-primary-teal-primary);
+}
+.register-page-text09 {
+  color: var(--dl-color-gray-white);
+  font-weight: 700;
+}
+.register-page-navlink2 {
   display: contents;
 }
 .register-page-container14 {
@@ -490,32 +478,9 @@ export default {
   flex-direction: column;
   justify-content: center;
   text-decoration: none;
-  background-color: var(--dl-color-primary-teal-primary);
-}
-.register-page-text10 {
-  color: var(--dl-color-gray-white);
-  font-weight: 700;
-}
-.register-page-navlink2 {
-  display: contents;
-}
-.register-page-container15 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 3rem;
-  margin: var(--dl-space-space-halfunit);
-  display: flex;
-  align-items: center;
-  border-color: var(--dl-color-primary-teal-primary);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 20px;
-  flex-direction: column;
-  justify-content: center;
-  text-decoration: none;
   background-color: var(--dl-color-gray-white);
 }
-.register-page-text11 {
+.register-page-text10 {
   color: var(--dl-color-primary-teal-primary);
   font-weight: 700;
 }
@@ -557,6 +522,9 @@ export default {
   .register-page-text05 {
     font-size: 12px;
   }
+  .register-page-container10 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
   .register-page-text06 {
     font-size: 12px;
   }
@@ -573,16 +541,10 @@ export default {
     font-size: 12px;
   }
   .register-page-container13 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .register-page-text09 {
-    font-size: 12px;
-  }
-  .register-page-container14 {
     width: 250px;
     height: 40px;
   }
-  .register-page-container15 {
+  .register-page-container14 {
     width: 250px;
     height: 40px;
   }
