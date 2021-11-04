@@ -125,7 +125,7 @@
               </div>
             </div>
           </div>
-          <router-link to="/video-course" class="register-page-navlink1">
+          <router-link to="/video-course-dark" class="register-page-navlink1">
             <div class="register-page-container14">
               <span class="register-page-text17">Daftar</span>
             </div>
