@@ -6,3 +6,6 @@ Fashliy adalah sebuah platform pembelajaran Ilmu Agama secara online
 
 # deployment
 https://fashliy.netlify.app/
+
+# backend
+https://github.com/Velezer/fashliy
