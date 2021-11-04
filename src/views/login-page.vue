@@ -70,7 +70,7 @@ export default {
         .then((res) => {
           localStorage.setItem(config.localStorage.jwtToken, res.data.data.token)
           if (res.status == 200) {
-            this.$router.push(`/video-course`)
+            this.$router.push(`/video-course-dark`)
           }
         })
         .catch((err) => {
