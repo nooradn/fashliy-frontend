@@ -3,18 +3,19 @@
     <div class="login-page-bg">
       <div class="login-page-pdd">
         <div class="login-page-ctt">
-          <img
-            alt="image"
-            src="/playground_assets/logotext-fill-1200h.png"
-            class="login-page-image"
-          />
+          <router-link to="/" class="login-page-navlink">
+            <img
+              alt="image"
+              src="/playground_assets/logotext-fill-1200h.png"
+              class="login-page-image"
+            />
+          </router-link>
           <div class="login-page-container1">
             <span class="login-page-text">Alamat Email</span>
             <input
               type="email"
-              v-model.trim="email"
-              placeholder="Tulis email disini..."
               required="true"
+              placeholder="Tulis email disini..."
               class="login-page-textinput input"
             />
           </div>
@@ -22,21 +23,22 @@
             <span class="login-page-text1">Password</span>
             <input
               type="password"
-              v-model.trim.lazy="password"
-              placeholder="Ketik password disini..."
               required="true"
+              placeholder="Ketik password disini..."
               class="login-page-textinput1 input"
             />
             <span class="login-page-text2">Lupa Password</span>
           </div>
-          <!-- <router-link to="/video-course" class="login-page-navlink"> -->
-          <div class="login-page-container3">
-            <span class="login-page-text3" v-on:click="login">Masuk</span>
-          </div>
-          <!-- </router-link> -->
-          <div class="login-page-container4">
-            <span class="login-page-text4">Daftar</span>
-          </div>
+          <router-link to="/video-course-dark" class="login-page-navlink1">
+            <div class="login-page-container3">
+              <span class="login-page-text3">Masuk</span>
+            </div>
+          </router-link>
+          <router-link to="/register-page" class="login-page-navlink2">
+            <div class="login-page-container4">
+              <span class="login-page-text4">Daftar</span>
+            </div>
+          </router-link>
         </div>
       </div>
     </div>
@@ -120,6 +122,9 @@ export default {
   flex-direction: column;
   justify-content: center;
 }
+.login-page-navlink {
+  display: contents;
+}
 .login-page-image {
   width: 130px;
   margin-top: 0px;
@@ -127,6 +132,7 @@ export default {
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
 .login-page-container1 {
   width: 100%;
@@ -188,7 +194,7 @@ export default {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.login-page-navlink {
+.login-page-navlink1 {
   display: contents;
 }
 .login-page-container3 {
@@ -211,6 +217,9 @@ export default {
   color: var(--dl-color-gray-white);
   font-weight: 700;
 }
+.login-page-navlink2 {
+  display: contents;
+}
 .login-page-container4 {
   flex: 0 0 auto;
   width: 100%;
@@ -224,13 +233,14 @@ export default {
   border-radius: 20px;
   flex-direction: column;
   justify-content: center;
+  text-decoration: none;
   background-color: var(--dl-color-gray-white);
 }
 .login-page-text4 {
   color: var(--dl-color-primary-teal-primary);
   font-weight: 700;
 }
-@media (max-width: 479px) {
+@media(max-width: 479px) {
   .login-page-pdd {
     width: auto;
   }

@@ -15,7 +15,7 @@
             <span class="home-text"><span>Masuk</span></span>
           </router-link>
           <router-link to="/login-page" class="home-navlink1 button">
-            <span class="home-text02">Daftar</span>
+            <span class="home-text002">Daftar</span>
           </router-link>
         </div>
         <div class="home-menu-burger teleport-menu-burger">
@@ -63,17 +63,17 @@
     </header>
     <div class="home-hero">
       <div class="home-container03">
-        <h1 class="home-text03">
+        <h1 class="home-text003">
           <span>
             Belajar Ilmu Agama lebih
-            <span v-html="rawuj2p"></span>
+            <span v-html="rawxcq0"></span>
           </span>
-          <span class="home-text05">mudah</span>
+          <span class="home-text005">mudah</span>
           <span>
             dan
-            <span v-html="rawnxs7"></span>
+            <span v-html="rawss0w"></span>
           </span>
-          <span class="home-text07">terarah.</span>
+          <span class="home-text007">terarah.</span>
         </h1>
         <div class="home-btn-group1">
           <button class="home-button button">Mulai Belajar</button>
@@ -86,16 +86,16 @@
       />
     </div>
     <div class="home-features">
-      <h1 class="home-text08">
+      <h1 class="home-text008">
         <span>
           Materi Belajar
-          <span v-html="raw664s"></span>
+          <span v-html="raw18tw"></span>
         </span>
-        <span class="home-text10">Unggulan</span>
+        <span class="home-text010">Unggulan</span>
         <br />
         <span></span>
       </h1>
-      <span class="home-text12">
+      <span class="home-text012">
         <span>Pelajari materi unggulan dari kami dengan kualitas terbaik.</span>
       </span>
       <div class="home-container04">
@@ -105,8 +105,8 @@
               d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
             ></path>
           </svg>
-          <h2 class="home-text14">Aqidah</h2>
-          <span class="home-text15">Lorem Ipsum</span>
+          <h2 class="home-text014">Tafsir</h2>
+          <span class="home-text015">Lorem Ipsum</span>
         </div>
         <div class="home-feature-card1">
           <svg viewBox="0 0 1024 1024" class="home-icon12">
@@ -114,8 +114,8 @@
               d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
             ></path>
           </svg>
-          <h2 class="home-text16">Bahasa Arab</h2>
-          <span class="home-text17">Lorem Ipsum</span>
+          <h2 class="home-text016">Hadits</h2>
+          <span class="home-text017">Lorem Ipsum</span>
         </div>
         <div class="home-feature-card2">
           <svg viewBox="0 0 1024 1024" class="home-icon14">
@@ -123,23 +123,71 @@
               d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
             ></path>
           </svg>
-          <h2 class="home-text18">Fiqih</h2>
-          <span class="home-text19">Lorem Ipsum</span>
+          <h2 class="home-text018">Fiqih</h2>
+          <span class="home-text019">Lorem Ipsum</span>
+        </div>
+      </div>
+      <div class="home-container05">
+        <div class="home-feature-card3">
+          <svg viewBox="0 0 1024 1024" class="home-icon16">
+            <path
+              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+            ></path>
+          </svg>
+          <h2 class="home-text020">Akidah Akhlak</h2>
+        </div>
+        <div class="home-feature-card4">
+          <svg viewBox="0 0 1024 1024" class="home-icon18">
+            <path
+              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+            ></path>
+          </svg>
+          <h2 class="home-text021">Bahasa Arab</h2>
+        </div>
+        <div class="home-feature-card5">
+          <svg viewBox="0 0 1024 1024" class="home-icon20">
+            <path
+              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+            ></path>
+          </svg>
+          <h2 class="home-text022">
+            <span class="home-text023">
+              Sejarah
+              <span v-html="raw4k1h"></span>
+            </span>
+            <br />
+            <span class="home-text025">Kebudayaan Islam</span>
+          </h2>
+        </div>
+        <div class="home-feature-card6">
+          <svg viewBox="0 0 1024 1024" class="home-icon22">
+            <path
+              d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+            ></path>
+          </svg>
+          <h2 class="home-text026">
+            <span class="home-text027">
+              Kajian-Kajian
+              <span v-html="rawbpvu"></span>
+            </span>
+            <br />
+            <span class="home-text029">Islam</span>
+          </h2>
         </div>
       </div>
     </div>
-    <div class="home-container05">
-      <div class="home-container06">
-        <h1 class="home-text20">
+    <div class="home-container06">
+      <div class="home-container07">
+        <h1 class="home-text030">
           <span>
             Video Materi
-            <span v-html="rawb90p"></span>
+            <span v-html="raw4bb5"></span>
           </span>
-          <span class="home-text22">Berkualitas</span>
+          <span class="home-text032">Berkualitas</span>
           <br />
           <span></span>
         </h1>
-        <span class="home-text24">
+        <span class="home-text034">
           <span>Kami berkomitmen untuk selalu memberikan kualitas terbaik.</span>
           <br />
           <span>Berikut beberapa contoh video.</span>
@@ -155,88 +203,91 @@
       </div>
     </div>
     <div class="home-pricing">
-      <div class="home-container07">
-        <h1 class="home-text27">
+      <div class="home-container08">
+        <h1 class="home-text037">
           <span>
             Paket Hemat,
-            <span v-html="raw2jkr"></span>
+            <span v-html="rawb6mw"></span>
           </span>
-          <span class="home-text29">Bersahabat!</span>
+          <span class="home-text039">Bersahabat!</span>
           <br />
           <span></span>
         </h1>
-        <span class="home-text31">
+        <span class="home-text041">
           <span>Lorem ipsum dolor sit amet todo amectus dolor.</span>
         </span>
       </div>
-      <div class="home-container08">
+      <div class="home-container09">
         <div class="home-pricing-card">
-          <span class="home-text33">Santri baru</span>
-          <div class="home-container09">
-            <span class="home-text34">Gratis</span>
-          </div>
+          <span class="home-text043">Santri baru</span>
           <div class="home-container10">
-            <span class="home-text35">
+            <span class="home-text044">Gratis</span>
+          </div>
+          <div class="home-container11">
+            <span class="home-text045">
               <span>✔ Full access to designtool</span>
             </span>
-            <span class="home-text37"><span>✔ Publish with Teleport</span></span>
-            <span class="home-text39"><span>✔ Subdomain publish</span></span>
-            <span class="home-text41"><span>✔ Download code</span></span>
+            <span class="home-text047"><span>✔ Publish with Teleport</span></span>
+            <span class="home-text049"><span>✔ Subdomain publish</span></span>
+            <span class="home-text051"><span>✔ Download code</span></span>
           </div>
           <button class="home-button1 button">
-            <span class="home-text43"><span>Daftar Sekarang</span></span>
+            <span class="home-text053"><span>Daftar Sekarang</span></span>
           </button>
         </div>
         <div class="home-pricing-card1">
-          <span class="home-text45">Santri Pro</span>
-          <div class="home-container11">
-            <span class="home-text46"><span>Rp.</span></span>
-            <span class="home-text48">49</span>
-            <span class="home-text49"><span>ribu</span></span>
-          </div>
-          <span class="home-text51">
-            <span>Per akun, per bulan</span>
-            <span></span>
-          </span>
+          <span class="home-text055"><span>Santri Pro</span></span>
           <div class="home-container12">
-            <span class="home-text54"><span>✔ All features of FREE</span></span>
-            <span class="home-text56">
+            <span class="home-text057"><span>Rp.</span></span>
+            <span class="home-text059">29</span>
+            <span class="home-text060"><span>ribu</span></span>
+          </div>
+          <span class="home-text062"><span>PER BULAN</span></span>
+          <div class="home-container13">
+            <span class="home-text064">
+              <span>✔ All features of Santri Baru</span>
+            </span>
+            <span class="home-text066">
               <span>✔ Connect to custom domain</span>
             </span>
-            <span class="home-text58"><span>✔ Private projects</span></span>
-            <span class="home-text60"><span>✔ No project limitations</span></span>
-            <span class="home-text62"><span>✔ Unlimited Users</span></span>
+            <span class="home-text068"><span>✔ Private projects</span></span>
+            <span class="home-text070">
+              <span>✔ No project limitations</span>
+            </span>
+            <span class="home-text072"><span>✔ Unlimited Users</span></span>
           </div>
           <button class="home-button2 button">
-            <span class="home-text64"><span>Daftar Sekarang</span></span>
+            <span class="home-text074"><span>Coba Gratis 7 Hari</span></span>
           </button>
         </div>
         <div class="home-pricing-card2">
-          <span class="home-text66">Santri Expert</span>
-          <div class="home-container13">
-            <span class="home-text67"><span>Rp.</span></span>
-            <span class="home-text69">99</span>
-            <span class="home-text70"><span>ribu</span></span>
-          </div>
-          <span class="home-text72">
-            <span>Billed annualy or $32 month-to-month.</span>
-            <span></span>
+          <span class="home-text076">
+            Santri Expert
+            <span v-html="rawcsce"></span>
           </span>
           <div class="home-container14">
-            <span class="home-text75"><span>✔ All features of Pro</span></span>
-            <span class="home-text77"><span>✔ Priority support</span></span>
-            <span class="home-text79"><span>✔ Premium analytics</span></span>
-            <span class="home-text81"><span>✔ Version history</span></span>
+            <span class="home-text077"><span>Rp.</span></span>
+            <span class="home-text079">299</span>
+            <span class="home-text080"><span>ribu</span></span>
+          </div>
+          <span class="home-text082"><span>PER TAHUN</span></span>
+          <div class="home-container15">
+            <span class="home-text084">
+              <span>✔ All features of Santri Pro</span>
+            </span>
+            <span class="home-text086"><span>✔ Priority support</span></span>
+            <span class="home-text088"><span>✔ Premium analytics</span></span>
+            <span class="home-text090"><span>✔ Version history</span></span>
           </div>
           <button class="home-button3 button">
-            <span class="home-text83"><span>Daftar Sekarang</span></span>
+            <span class="home-text092">Coba Gratis 7 Hari</span>
           </button>
         </div>
       </div>
     </div>
     <div class="home-banner">
-      <h1 class="home-text85">Tunggu Apa Lagi?</h1>
-      <span class="home-text86">
+      <h1 class="home-text093">Tunggu Apa Lagi?</h1>
+      <span class="home-text094">
         <span>
           <span>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
@@ -245,30 +296,30 @@
             elit. Sed non volutpat turpis. Mauris luctus rutrum mi ut rhoncus.
             Integer in dignissim tortor. Sed non volutpat turpis. Mauris luctus
             rutrum mi ut rhoncus. Integer in dignissim ortor.
-            <span v-html="rawd42s"></span>
+            <span v-html="rawgm1w"></span>
           </span>
-          <span><span v-html="rawej9u"></span></span>
+          <span><span v-html="rawpf5n"></span></span>
         </span>
       </span>
-      <button class="home-button4 button">
-        <span class="home-text90"><span>Daftar Sekarang</span></span>
-      </button>
+      <router-link to="/login-page" class="home-navlink2 button">
+        <span class="home-text098"><span>Daftar Sekarang</span></span>
+      </router-link>
     </div>
-    <div class="home-container15">
+    <div class="home-container16">
       <footer class="home-footer">
         <img
           alt="logo"
           src="/playground_assets/logotext-fill.svg"
           class="home-image3"
         />
-        <span class="home-text92">© 2021 Fashliy, Hak Cipta Dilindungi.</span>
-        <div class="home-container16">
-          <span class="home-text93">Tentang</span>
-          <span class="home-text94">Katalog</span>
-          <span class="home-text95">Karir</span>
-          <span class="home-text96">Kebijakan Privasi</span>
-          <span class="home-text97">Bantuan</span>
+        <div class="home-container17">
+          <span class="home-text100">Tentang</span>
+          <span class="home-text101">Katalog</span>
+          <span class="home-text102">Karir</span>
+          <span class="home-text103">Kebijakan Privasi</span>
+          <span class="home-text104">Bantuan</span>
         </div>
+        <span class="home-text105">© 2021 Fashliy, Hak Cipta Dilindungi.</span>
       </footer>
     </div>
   </div>
@@ -287,22 +338,25 @@ export default {
 
   data() {
     return {
-      rawuj2p: ' ',
-      rawnxs7: ' ',
-      raw664s: ' ',
-      rawb90p: ' ',
-      raw2jkr: ' ',
-      rawd42s: ' ',
-      rawej9u: ' ',
+      rawxcq0: ' ',
+      rawss0w: ' ',
+      raw18tw: ' ',
+      raw4k1h: ' ',
+      rawbpvu: ' ',
+      raw4bb5: ' ',
+      rawb6mw: ' ',
+      rawcsce: ' ',
+      rawgm1w: ' ',
+      rawpf5n: ' ',
     }
   },
 
   metaInfo: {
-    title: 'New Project',
+    title: 'Fashliy - Islamic Learning Platform',
     meta: [
       {
         property: 'og:title',
-        content: 'New Project',
+        content: 'Fashliy - Islamic Learning Platform',
       },
     ],
   },
@@ -388,7 +442,7 @@ export default {
 .home-navlink1:hover {
   background-color: #ffffff;
 }
-.home-text02 {
+.home-text002 {
   color: var(--dl-color-primary-teal-primary);
   font-weight: 700;
 }
@@ -452,17 +506,17 @@ export default {
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
 }
-.home-text03 {
+.home-text003 {
   width: 454px;
   font-size: 3em;
   max-width: 450px;
   align-self: flex-start;
   margin-bottom: 45px;
 }
-.home-text05 {
+.home-text005 {
   color: var(--dl-color-primary-teal-primary);
 }
-.home-text07 {
+.home-text007 {
   color: var(--dl-color-primary-teal-primary);
 }
 .home-btn-group1 {
@@ -505,14 +559,14 @@ export default {
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fiveunits);
 }
-.home-text08 {
+.home-text008 {
   font-size: 46px;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text10 {
+.home-text010 {
   color: var(--dl-color-primary-teal-primary);
 }
-.home-text12 {
+.home-text012 {
   color: var(--dl-color-gray-700);
   font-size: 1.15rem;
   text-align: center;
@@ -542,13 +596,13 @@ export default {
   width: var(--dl-size-size-medium);
   height: var(--dl-size-size-medium);
 }
-.home-text14 {
+.home-text014 {
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text15 {
+.home-text015 {
   color: var(--dl-color-gray-700);
   font-size: 15px;
   text-align: center;
@@ -569,13 +623,13 @@ export default {
   width: var(--dl-size-size-medium);
   height: var(--dl-size-size-medium);
 }
-.home-text16 {
+.home-text016 {
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text17 {
+.home-text017 {
   color: var(--dl-color-gray-700);
   font-size: 15px;
   text-align: center;
@@ -596,13 +650,13 @@ export default {
   width: var(--dl-size-size-medium);
   height: var(--dl-size-size-medium);
 }
-.home-text18 {
+.home-text018 {
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text19 {
+.home-text019 {
   color: var(--dl-color-gray-700);
   font-size: 15px;
   text-align: center;
@@ -611,25 +665,141 @@ export default {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  justify-content: center;
+}
+.home-feature-card3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.home-icon16 {
+  fill: var(--dl-color-primary-teal-primary);
+  flex: 1;
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+}
+.home-text020 {
+  font-size: 1.3em;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-feature-card4 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.home-icon18 {
+  fill: var(--dl-color-primary-teal-primary);
+  flex: 1;
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+}
+.home-text021 {
+  font-size: 1.3em;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-feature-card5 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.home-icon20 {
+  fill: var(--dl-color-primary-teal-primary);
+  flex: 1;
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+}
+.home-text022 {
+  font-size: 1.3em;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text023 {
+  font-style: normal;
+}
+.home-text025 {
+  font-style: normal;
+}
+.home-feature-card6 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.home-icon22 {
+  fill: var(--dl-color-primary-teal-primary);
+  flex: 1;
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+}
+.home-text026 {
+  font-size: 1.3em;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text027 {
+  font-style: normal;
+}
+.home-text029 {
+  font-style: normal;
+}
+.home-container06 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
   padding: var(--dl-space-space-fiveunits);
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.home-container06 {
+.home-container07 {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.home-text20 {
+.home-text030 {
   font-size: 46px;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text22 {
+.home-text032 {
   color: var(--dl-color-primary-teal-primary);
 }
-.home-text24 {
+.home-text034 {
   color: var(--dl-color-gray-700);
   font-size: 1.15rem;
   text-align: center;
@@ -650,32 +820,32 @@ export default {
   display: flex;
   align-items: center;
   padding-top: var(--dl-space-space-fourunits);
-  padding-left: var(--dl-space-space-fourunits);
-  padding-right: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-threeunits);
   justify-content: center;
 }
-.home-container07 {
+.home-container08 {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.home-text27 {
+.home-text037 {
   font-size: 46px;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text29 {
+.home-text039 {
   color: var(--dl-color-primary-teal-primary);
 }
-.home-text31 {
+.home-text041 {
   color: var(--dl-color-gray-700);
   font-size: 1.15rem;
   text-align: center;
   padding-bottom: var(--dl-space-space-twounits);
 }
-.home-container08 {
+.home-container09 {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -710,41 +880,41 @@ export default {
 .home-pricing-card:hover {
   transform: scale(1.02);
 }
-.home-text33 {
+.home-text043 {
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 900;
   margin-bottom: var(--dl-space-space-twounits);
   text-transform: capitalize;
 }
-.home-container09 {
+.home-container10 {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.home-text34 {
+.home-text044 {
   color: var(--dl-color-primary-teal-primary);
   font-size: 3rem;
   font-weight: 700;
 }
-.home-container10 {
+.home-container11 {
   display: flex;
   align-items: flex-start;
   margin-right: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.home-text35 {
+.home-text045 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text37 {
+.home-text047 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text39 {
+.home-text049 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text41 {
+.home-text051 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-button1 {
@@ -761,7 +931,7 @@ export default {
   padding-bottom: var(--dl-space-space-unit);
   background-color: var(--dl-color-gray-white);
 }
-.home-text43 {
+.home-text053 {
   font-weight: 700;
 }
 .home-pricing-card1 {
@@ -784,59 +954,60 @@ export default {
 .home-pricing-card1:hover {
   transform: scale(1.02);
 }
-.home-text45 {
+.home-text055 {
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 900;
   margin-bottom: var(--dl-space-space-twounits);
   text-transform: capitalize;
 }
-.home-container11 {
+.home-container12 {
   display: flex;
   align-items: center;
-  margin-bottom: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text46 {
+.home-text057 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.home-text48 {
+.home-text059 {
   color: var(--dl-color-primary-teal-primary);
   font-size: 4rem;
   font-weight: 700;
 }
-.home-text49 {
+.home-text060 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.home-text51 {
+.home-text062 {
   color: var(--dl-color-gray-500);
-  font-size: 0.75rem;
+  font-size: 1.3rem;
+  font-weight: 700;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.home-container12 {
+.home-container13 {
   display: flex;
   align-items: flex-start;
   margin-right: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.home-text54 {
+.home-text064 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text56 {
+.home-text066 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text58 {
+.home-text068 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text60 {
+.home-text070 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text62 {
+.home-text072 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-button2 {
@@ -853,7 +1024,7 @@ export default {
   padding-bottom: var(--dl-space-space-unit);
   background-color: var(--dl-color-primary-teal-primary);
 }
-.home-text64 {
+.home-text074 {
   font-weight: 700;
 }
 .home-pricing-card2 {
@@ -878,56 +1049,57 @@ export default {
 .home-pricing-card2:hover {
   transform: scale(1.02);
 }
-.home-text66 {
+.home-text076 {
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 900;
   margin-bottom: var(--dl-space-space-twounits);
   text-transform: capitalize;
 }
-.home-container13 {
+.home-container14 {
   display: flex;
   align-items: center;
-  margin-bottom: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text67 {
+.home-text077 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.home-text69 {
+.home-text079 {
   color: var(--dl-color-primary-teal-primary);
   font-size: 4rem;
   font-weight: 700;
 }
-.home-text70 {
+.home-text080 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.home-text72 {
+.home-text082 {
   color: var(--dl-color-gray-500);
-  font-size: 0.75rem;
+  font-size: 1.3rem;
+  font-weight: 700;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.home-container14 {
+.home-container15 {
   display: flex;
   align-items: flex-start;
   margin-right: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.home-text75 {
+.home-text084 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text77 {
+.home-text086 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text79 {
+.home-text088 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text81 {
+.home-text090 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-button3 {
@@ -944,7 +1116,7 @@ export default {
   padding-bottom: var(--dl-space-space-unit);
   background-color: var(--dl-color-gray-white);
 }
-.home-text83 {
+.home-text092 {
   font-weight: 700;
 }
 .home-banner {
@@ -956,12 +1128,12 @@ export default {
   justify-content: space-between;
   background-color: var(--dl-color-primary-teal-primary);
 }
-.home-text85 {
+.home-text093 {
   color: var(--dl-color-gray-white);
   font-size: 3rem;
   text-align: center;
 }
-.home-text86 {
+.home-text094 {
   color: var(--dl-color-gray-white);
   opacity: 0.5;
   max-width: 720px;
@@ -969,7 +1141,7 @@ export default {
   text-align: center;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.home-button4 {
+.home-navlink2 {
   color: var(--dl-color-primary-teal-primary);
   font-size: 16px;
   margin-top: var(--dl-space-space-unit);
@@ -981,12 +1153,13 @@ export default {
   margin-bottom: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
   background-color: var(--dl-color-gray-white);
 }
-.home-text90 {
+.home-text098 {
   font-weight: 700;
 }
-.home-container15 {
+.home-container16 {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-twounits);
@@ -1010,38 +1183,38 @@ export default {
   width: 199px;
   object-fit: cover;
 }
-.home-text92 {
-  color: var(--dl-color-gray-white);
-}
-.home-container16 {
+.home-container17 {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.home-text93 {
+.home-text100 {
   color: var(--dl-color-gray-white);
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
 }
-.home-text94 {
+.home-text101 {
   color: var(--dl-color-gray-white);
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
 }
-.home-text95 {
+.home-text102 {
   color: var(--dl-color-gray-white);
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
 }
-.home-text96 {
+.home-text103 {
   color: var(--dl-color-gray-white);
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
 }
-.home-text97 {
+.home-text104 {
   color: var(--dl-color-gray-white);
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
+}
+.home-text105 {
+  color: var(--dl-color-gray-white);
 }
 @media(max-width: 991px) {
   .home-icon {
@@ -1056,28 +1229,28 @@ export default {
     margin-bottom: var(--dl-space-space-twounits);
     padding-right: 0px;
   }
-  .home-text03 {
+  .home-text003 {
     text-align: center;
   }
-  .home-text08 {
+  .home-text008 {
     text-align: center;
   }
-  .home-text12 {
+  .home-text012 {
     text-align: center;
   }
-  .home-text20 {
+  .home-text030 {
     text-align: center;
   }
-  .home-text24 {
+  .home-text034 {
     text-align: center;
   }
   .home-gallery {
     grid-template-columns: 1fr 1fr;
   }
-  .home-text27 {
+  .home-text037 {
     text-align: center;
   }
-  .home-text31 {
+  .home-text041 {
     text-align: center;
   }
   .home-pricing-card {
@@ -1096,7 +1269,7 @@ export default {
     max-width: 100%;
     align-items: center;
   }
-  .home-text86 {
+  .home-text094 {
     max-width: 100%;
   }
 }
@@ -1122,27 +1295,27 @@ export default {
   .home-container03 {
     align-self: center;
   }
-  .home-text03 {
+  .home-text003 {
     margin-top: var(--dl-space-space-oneandhalfunits);
   }
   .home-features {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text08 {
+  .home-text008 {
     text-align: center;
   }
-  .home-text20 {
+  .home-text030 {
     text-align: center;
   }
   .home-gallery {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text27 {
+  .home-text037 {
     text-align: center;
   }
-  .home-container08 {
+  .home-container09 {
     flex-flow: column;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -1172,7 +1345,7 @@ export default {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text86 {
+  .home-text094 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
@@ -1180,32 +1353,32 @@ export default {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text92 {
+  .home-text100 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .home-text93 {
+  .home-text101 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .home-text94 {
+  .home-text102 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .home-text95 {
+  .home-text103 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .home-text96 {
+  .home-text104 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .home-text97 {
+  .home-text105 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
@@ -1249,7 +1422,7 @@ export default {
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .home-container08 {
+  .home-container09 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
@@ -1271,32 +1444,32 @@ export default {
   .home-image3 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-text92 {
+  .home-text100 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-text93 {
+  .home-text101 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-text94 {
+  .home-text102 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-text95 {
+  .home-text103 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-text96 {
+  .home-text104 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-text97 {
+  .home-text105 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);

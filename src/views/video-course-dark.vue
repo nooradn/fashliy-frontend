@@ -1,156 +1,138 @@
 <template>
-  <div class="video-course-container">
-    <div class="video-course-panels">
-      <div class="video-course-menubar">
-        <div class="video-course-container01">
-          <div class="video-course-container02">
-            <router-link to="/" class="video-course-navlink">
-              <img
-                alt="image"
-                src="/playground_assets/logotext-fill.svg"
-                class="video-course-image"
-              />
-            </router-link>
-            <svg viewBox="0 0 1024 1024" class="video-course-icon">
-              <path
-                d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
-              ></path>
-            </svg>
-          </div>
+  <div class="video-course-dark-container">
+    <div class="video-course-dark-menubar">
+      <div class="video-course-dark-container01">
+        <router-link to="/" class="video-course-dark-navlink">
+          <img
+            alt="image"
+            src="/playground_assets/logotext-fill.svg"
+            class="video-course-dark-image"
+          />
+        </router-link>
+      </div>
+      <div class="video-course-dark-container02">
+        <span class="video-course-dark-text">Bab 1: Muqoddimah</span>
+        <div class="video-course-dark-container03">
+          <span class="video-course-dark-text01">Materi 1</span>
+          <svg viewBox="0 0 1024 1024" class="video-course-dark-icon">
+            <path
+              d="M426 726l384-384-60-62-324 324-152-152-60 60zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125z"
+            ></path>
+          </svg>
         </div>
-        <div class="video-course-container03">
-          <div class="video-course-container04">
-            <svg viewBox="0 0 1024 1024" class="video-course-icon02">
-              <path
-                d="M406 598q80 0 136-56t56-136-56-136-136-56-136 56-56 136 56 136 136 56zM662 598l212 212-64 64-212-212v-34l-12-12q-76 66-180 66-116 0-197-80t-81-196 81-197 197-81 196 81 80 197q0 42-20 95t-46 85l12 12h34z"
-              ></path>
-            </svg>
-            <span class="video-course-text">Cari materi...</span>
-          </div>
+        <div class="video-course-dark-container04">
+          <span class="video-course-dark-text02">Materi 2</span>
+          <svg viewBox="0 0 1024 1024" class="video-course-dark-icon2">
+            <path
+              d="M426 726l384-384-60-62-324 324-152-152-60 60zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125z"
+            ></path>
+          </svg>
         </div>
-        <div class="video-course-container05">
-          <span class="video-course-text01">Bab 1: Muqoddimah</span>
-          <div class="video-course-container06">
-            <span class="video-course-text02">Materi 1</span>
-            <svg viewBox="0 0 1024 1024" class="video-course-icon04">
-              <path
-                d="M426 726l384-384-60-62-324 324-152-152-60 60zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125z"
-              ></path>
-            </svg>
-          </div>
-          <div class="video-course-container07">
-            <span class="video-course-text03">Materi 2</span>
-            <svg viewBox="0 0 1024 1024" class="video-course-icon06">
-              <path
-                d="M426 726l384-384-60-62-324 324-152-152-60 60zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125z"
-              ></path>
-            </svg>
-          </div>
-          <div class="video-course-container08">
-            <span class="video-course-text04">Materi 3</span>
-            <svg viewBox="0 0 1024 1024" class="video-course-icon08">
-              <path
-                d="M426 726l384-384-60-62-324 324-152-152-60 60zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125z"
-              ></path>
-            </svg>
-          </div>
-          <div class="video-course-container09">
-            <span class="video-course-text05">Materi 4</span>
-          </div>
-          <div class="video-course-container10">
-            <span class="video-course-text06">Materi 5</span>
-          </div>
-          <span class="video-course-text07">Bab 2: Lorem Ipsum</span>
-          <div class="video-course-container11">
-            <span class="video-course-text08">Materi xx</span>
-          </div>
-          <div class="video-course-container12">
-            <span class="video-course-text09">Materi xx</span>
-          </div>
-          <div class="video-course-container13">
-            <span class="video-course-text10">Materi xx</span>
-          </div>
-          <div class="video-course-container14">
-            <span class="video-course-text11">Materi xx</span>
-          </div>
-          <div class="video-course-container15">
-            <span class="video-course-text12">Materi xx</span>
-          </div>
-          <span class="video-course-text13">Bab 3: Lorem Ipsum</span>
-          <div class="video-course-container16">
-            <span class="video-course-text14">Materi xx</span>
-          </div>
-          <div class="video-course-container17">
-            <span class="video-course-text15">Materi xx</span>
-          </div>
-          <div class="video-course-container18">
-            <span class="video-course-text16">Materi xx</span>
-          </div>
-          <div class="video-course-container19">
-            <span class="video-course-text17">Materi xx</span>
-          </div>
-          <div class="video-course-container20">
-            <span class="video-course-text18">Materi xx</span>
-          </div>
-          <div class="video-course-container21">
-            <span class="video-course-text19">Materi xx</span>
-          </div>
+        <div class="video-course-dark-container05">
+          <span class="video-course-dark-text03">Materi 3</span>
+          <svg viewBox="0 0 1024 1024" class="video-course-dark-icon4">
+            <path
+              d="M426 726l384-384-60-62-324 324-152-152-60 60zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125z"
+            ></path>
+          </svg>
+        </div>
+        <div class="video-course-dark-container06">
+          <span class="video-course-dark-text04">Materi 4</span>
+        </div>
+        <div class="video-course-dark-container07">
+          <span class="video-course-dark-text05">Materi 5</span>
+        </div>
+        <span class="video-course-dark-text06">Bab 2: Lorem Ipsum</span>
+        <div class="video-course-dark-container08">
+          <span class="video-course-dark-text07">Materi xx</span>
+        </div>
+        <div class="video-course-dark-container09">
+          <span class="video-course-dark-text08">Materi xx</span>
+        </div>
+        <div class="video-course-dark-container10">
+          <span class="video-course-dark-text09">Materi xx</span>
+        </div>
+        <div class="video-course-dark-container11">
+          <span class="video-course-dark-text10">Materi xx</span>
+        </div>
+        <div class="video-course-dark-container12">
+          <span class="video-course-dark-text11">Materi xx</span>
+        </div>
+        <span class="video-course-dark-text12">Bab 3: Lorem Ipsum</span>
+        <div class="video-course-dark-container13">
+          <span class="video-course-dark-text13">Materi xx</span>
+        </div>
+        <div class="video-course-dark-container14">
+          <span class="video-course-dark-text14">Materi xx</span>
+        </div>
+        <div class="video-course-dark-container15">
+          <span class="video-course-dark-text15">Materi xx</span>
+        </div>
+        <div class="video-course-dark-container16">
+          <span class="video-course-dark-text16">Materi xx</span>
+        </div>
+        <div class="video-course-dark-container17">
+          <span class="video-course-dark-text17">Materi xx</span>
+        </div>
+        <div class="video-course-dark-container18">
+          <span class="video-course-dark-text18">Materi xx</span>
         </div>
       </div>
-      <div class="video-course-video-content">
-        <div class="video-course-container22">
-          <div class="video-course-container23">
-            <span class="video-course-text20">Bahasa Arab Materi Empat</span>
-            <span>Lorem ipsum dolor sit amet holo hampa jojo</span>
-          </div>
-          <div class="video-course-container24">
-            <button class="video-course-button button">
-              <img
-                alt="image"
-                src="/playground_assets/navigate_next.svg"
-                class="video-course-image1"
-              />
-              <span class="video-course-text22">Mundur</span>
-            </button>
-            <button class="video-course-button1 button">
-              <span class="video-course-text23">Selanjutnya</span>
-              <svg viewBox="0 0 1024 1024" class="video-course-icon10">
-                <path d="M426 256l256 256-256 256-60-60 196-196-196-196z"></path>
-              </svg>
-            </button>
-          </div>
+    </div>
+    <div class="video-course-dark-video-content">
+      <div class="video-course-dark-container19">
+        <div class="video-course-dark-container20">
+          <span class="video-course-dark-text19">Bahasa Arab Materi Empat</span>
+          <span class="video-course-dark-text20">
+            Lorem ipsum dolor sit amet holo hampa jojo
+          </span>
         </div>
-        <div class="video-course-container25">
-          <iframe
-            src="https://www.youtube.com/embed/Yq08LfcqCSc"
-            class="video-course-iframe"
-          ></iframe>
+        <div class="video-course-dark-container21">
+          <button class="video-course-dark-button button">
+            <img
+              alt="image"
+              src="/playground_assets/navigate_next.svg"
+              class="video-course-dark-image1"
+            />
+            <span class="video-course-dark-text21">Mundur</span>
+          </button>
+          <button class="video-course-dark-button1 button">
+            <span class="video-course-dark-text22">Lanjut</span>
+            <svg viewBox="0 0 1024 1024" class="video-course-dark-icon6">
+              <path d="M426 256l256 256-256 256-60-60 196-196-196-196z"></path>
+            </svg>
+          </button>
         </div>
-        <span class="video-course-text24">Faidah / Catatan</span>
-        <span class="video-course-text25">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl fames
-          aliquet blandit fermentum in. Congue nisl porttitor suscipit
-          pellentesque maecenas. Nibh enim mi turpis bibendum pellentesque cursus.
-          Ipsum lectus laoreet amet, porta feugiat nibh a sapien vitae. Dictum
-          tortor mauris diam lobortis a nulla. Libero eget justo quis sed. Massa
-          odio netus cursus vestibulum nascetur proin. At auctor eu nibh amet
-          donec mi ac ut. Vitae cursus sed tincidunt non. Sit purus in nunc,
-          egestas sit nullam.
-        </span>
       </div>
+      <div class="video-course-dark-container22">
+        <iframe
+          src="https://www.youtube.com/embed/cHsC2X1ZlZ8"
+          class="video-course-dark-iframe"
+        ></iframe>
+      </div>
+      <span class="video-course-dark-text23">Faidah / Catatan</span>
+      <span class="video-course-dark-text24">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl fames
+        aliquet blandit fermentum in. Congue nisl porttitor suscipit pellentesque
+        maecenas. Nibh enim mi turpis bibendum pellentesque cursus. Ipsum lectus
+        laoreet amet, porta feugiat nibh a sapien vitae. Dictum tortor mauris diam
+        lobortis a nulla. Libero eget justo quis sed. Massa odio netus cursus
+        vestibulum nascetur proin. At auctor eu nibh amet donec mi ac ut. Vitae
+        cursus sed tincidunt non. Sit purus in nunc, egestas sit nullam.
+      </span>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'VideoCourse',
+  name: 'VideoCourseDark',
   metaInfo: {
-    title: 'video-course - Fashliy - Islamic Learning Platform',
+    title: 'video-course-dark - Fashliy - Islamic Learning Platform',
     meta: [
       {
         property: 'og:title',
-        content: 'video-course - Fashliy - Islamic Learning Platform',
+        content: 'video-course-dark - Fashliy - Islamic Learning Platform',
       },
     ],
   },
@@ -158,40 +140,27 @@ export default {
 </script>
 
 <style scoped>
-.video-course-container {
+.video-course-dark-container {
   width: 100%;
   display: flex;
   overflow: auto;
   min-height: 100vh;
   align-items: flex-start;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
+  background-color: #232333;
 }
-.video-course-panels {
-  height: 100%;
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.video-course-menubar {
-  flex: 0 0 auto;
-  width: 15%;
+.video-course-dark-menubar {
+  flex: 1;
+  width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #34888D;
+  background-color: #31313E;
 }
-.video-course-container01 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  background-color: var(--dl-color-primary-teal-primary);
-}
-.video-course-container02 {
+.video-course-dark-container01 {
   flex: 0 0 auto;
   width: 100%;
   height: 70px;
@@ -199,64 +168,18 @@ export default {
   align-self: stretch;
   align-items: center;
   justify-content: center;
+  background-color: #3B3B48;
 }
-.video-course-navlink {
+.video-course-dark-navlink {
   display: contents;
 }
-.video-course-image {
+.video-course-dark-image {
   width: 100px;
   margin: var(--dl-space-space-unit);
   object-fit: cover;
   text-decoration: none;
 }
-.video-course-icon {
-  fill: var(--dl-color-gray-white);
-  width: 30px;
-  height: 30px;
-  margin: var(--dl-space-space-unit);
-  opacity: 0.5;
-  padding: 3px;
-  border-color: var(--dl-color-gray-white);
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius4);
-}
-.video-course-container03 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 70px;
-  display: flex;
-  align-self: stretch;
-  align-items: center;
-  justify-content: center;
-}
-.video-course-container04 {
-  flex: 0 0 auto;
-  width: 189px;
-  height: 40px;
-  display: flex;
-  opacity: 0.5;
-  align-self: center;
-  align-items: center;
-  border-color: var(--dl-color-gray-white);
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 50px;
-  justify-content: center;
-}
-.video-course-icon02 {
-  fill: var(--dl-color-gray-white);
-  width: 24px;
-  height: 24px;
-  margin-left: var(--dl-space-space-halfunit);
-  margin-right: var(--dl-space-space-halfunit);
-}
-.video-course-text {
-  color: var(--dl-color-gray-white);
-  font-size: 15px;
-  margin-left: 0px;
-  margin-right: var(--dl-space-space-unit);
-}
-.video-course-container05 {
+.video-course-dark-container02 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -270,13 +193,13 @@ export default {
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
-.video-course-text01 {
+.video-course-dark-text {
   color: var(--dl-color-gray-white);
   margin-top: var(--dl-space-space-unit);
   font-weight: 700;
   margin-bottom: 0px;
 }
-.video-course-container06 {
+.video-course-dark-container03 {
   flex: 0 0 auto;
   height: 40px;
   display: flex;
@@ -293,16 +216,16 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.video-course-text02 {
+.video-course-dark-text01 {
   color: var(--dl-color-gray-white);
   font-size: 16px;
 }
-.video-course-icon04 {
+.video-course-dark-icon {
   fill: var(--dl-color-gray-white);
   width: 24px;
   align-self: center;
 }
-.video-course-container07 {
+.video-course-dark-container04 {
   flex: 0 0 auto;
   height: 40px;
   display: flex;
@@ -319,16 +242,16 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.video-course-text03 {
+.video-course-dark-text02 {
   color: var(--dl-color-gray-white);
   font-size: 16px;
 }
-.video-course-icon06 {
+.video-course-dark-icon2 {
   fill: var(--dl-color-gray-white);
   width: 24px;
   align-self: center;
 }
-.video-course-container08 {
+.video-course-dark-container05 {
   flex: 0 0 auto;
   height: 40px;
   display: flex;
@@ -345,16 +268,16 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.video-course-text04 {
+.video-course-dark-text03 {
   color: var(--dl-color-gray-white);
   font-size: 16px;
 }
-.video-course-icon08 {
+.video-course-dark-icon4 {
   fill: var(--dl-color-gray-white);
   width: 24px;
   align-self: center;
 }
-.video-course-container09 {
+.video-course-dark-container06 {
   flex: 0 0 auto;
   height: 40px;
   display: flex;
@@ -371,11 +294,12 @@ export default {
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
 }
-.video-course-text05 {
+.video-course-dark-text04 {
   color: var(--dl-color-primary-teal-primary);
   font-size: 16px;
+  font-weight: 700;
 }
-.video-course-container10 {
+.video-course-dark-container07 {
   flex: 0 0 auto;
   height: 40px;
   display: flex;
@@ -392,17 +316,17 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.video-course-text06 {
+.video-course-dark-text05 {
   color: var(--dl-color-gray-white);
   font-size: 16px;
 }
-.video-course-text07 {
+.video-course-dark-text06 {
   color: var(--dl-color-gray-white);
   margin-top: var(--dl-space-space-unit);
   font-weight: 700;
   margin-bottom: 0px;
 }
-.video-course-container11 {
+.video-course-dark-container08 {
   flex: 0 0 auto;
   height: 40px;
   display: flex;
@@ -419,11 +343,11 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.video-course-text08 {
+.video-course-dark-text07 {
   color: var(--dl-color-gray-white);
   font-size: 16px;
 }
-.video-course-container12 {
+.video-course-dark-container09 {
   flex: 0 0 auto;
   height: 40px;
   display: flex;
@@ -440,11 +364,11 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.video-course-text09 {
+.video-course-dark-text08 {
   color: var(--dl-color-gray-white);
   font-size: 16px;
 }
-.video-course-container13 {
+.video-course-dark-container10 {
   flex: 0 0 auto;
   height: 40px;
   display: flex;
@@ -461,11 +385,11 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.video-course-text10 {
+.video-course-dark-text09 {
   color: var(--dl-color-gray-white);
   font-size: 16px;
 }
-.video-course-container14 {
+.video-course-dark-container11 {
   flex: 0 0 auto;
   height: 40px;
   display: flex;
@@ -482,11 +406,11 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.video-course-text11 {
+.video-course-dark-text10 {
   color: var(--dl-color-gray-white);
   font-size: 16px;
 }
-.video-course-container15 {
+.video-course-dark-container12 {
   flex: 0 0 auto;
   height: 40px;
   display: flex;
@@ -503,17 +427,17 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.video-course-text12 {
+.video-course-dark-text11 {
   color: var(--dl-color-gray-white);
   font-size: 16px;
 }
-.video-course-text13 {
+.video-course-dark-text12 {
   color: var(--dl-color-gray-white);
   margin-top: var(--dl-space-space-unit);
   font-weight: 700;
   margin-bottom: 0px;
 }
-.video-course-container16 {
+.video-course-dark-container13 {
   flex: 0 0 auto;
   height: 40px;
   display: flex;
@@ -530,11 +454,11 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.video-course-text14 {
+.video-course-dark-text13 {
   color: var(--dl-color-gray-white);
   font-size: 16px;
 }
-.video-course-container17 {
+.video-course-dark-container14 {
   flex: 0 0 auto;
   height: 40px;
   display: flex;
@@ -551,11 +475,11 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.video-course-text15 {
+.video-course-dark-text14 {
   color: var(--dl-color-gray-white);
   font-size: 16px;
 }
-.video-course-container18 {
+.video-course-dark-container15 {
   flex: 0 0 auto;
   height: 40px;
   display: flex;
@@ -572,11 +496,11 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.video-course-text16 {
+.video-course-dark-text15 {
   color: var(--dl-color-gray-white);
   font-size: 16px;
 }
-.video-course-container19 {
+.video-course-dark-container16 {
   flex: 0 0 auto;
   height: 40px;
   display: flex;
@@ -593,11 +517,11 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.video-course-text17 {
+.video-course-dark-text16 {
   color: var(--dl-color-gray-white);
   font-size: 16px;
 }
-.video-course-container20 {
+.video-course-dark-container17 {
   flex: 0 0 auto;
   height: 40px;
   display: flex;
@@ -614,11 +538,11 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.video-course-text18 {
+.video-course-dark-text17 {
   color: var(--dl-color-gray-white);
   font-size: 16px;
 }
-.video-course-container21 {
+.video-course-dark-container18 {
   flex: 0 0 auto;
   height: 40px;
   display: flex;
@@ -635,13 +559,13 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.video-course-text19 {
+.video-course-dark-text18 {
   color: var(--dl-color-gray-white);
   font-size: 16px;
 }
-.video-course-video-content {
-  flex: 0 0 auto;
-  width: 85%;
+.video-course-dark-video-content {
+  flex: 5;
+  width: 80%;
   height: 100%;
   display: flex;
   align-self: stretch;
@@ -653,15 +577,15 @@ export default {
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   justify-content: flex-start;
 }
-.video-course-container22 {
+.video-course-dark-container19 {
   width: 100%;
   display: flex;
   align-self: flex-start;
   align-items: center;
-  margin-bottom: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.video-course-container23 {
+.video-course-dark-container20 {
   flex: 0 0 auto;
   display: flex;
   align-self: flex-start;
@@ -669,17 +593,22 @@ export default {
   flex-direction: column;
   justify-content: space-between;
 }
-.video-course-text20 {
-  font-size: 24px;
+.video-course-dark-text19 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.video-course-container24 {
+.video-course-dark-text20 {
+  color: var(--dl-color-gray-white);
+  opacity: 0.5;
+}
+.video-course-dark-container21 {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
 }
-.video-course-button {
+.video-course-dark-button {
   color: var(--dl-color-primary-teal-primary);
   display: flex;
   font-size: 18px;
@@ -699,19 +628,19 @@ export default {
   padding-bottom: var(--dl-space-space-halfunit);
   background-color: var(--dl-color-gray-white);
 }
-.video-course-button:hover {
+.video-course-dark-button:hover {
   color: var(--dl-color-gray-white);
   background-color: var(--dl-color-gray-black);
 }
-.video-course-image1 {
+.video-course-dark-image1 {
   width: 24px;
   object-fit: cover;
 }
-.video-course-text22 {
+.video-course-dark-text21 {
   margin-left: var(--dl-space-space-halfunit);
   margin-right: 0px;
 }
-.video-course-button1 {
+.video-course-dark-button1 {
   color: var(--dl-color-gray-white);
   display: flex;
   font-size: 18px;
@@ -728,19 +657,19 @@ export default {
   padding-bottom: var(--dl-space-space-halfunit);
   background-color: var(--dl-color-primary-teal-primary);
 }
-.video-course-button1:hover {
+.video-course-dark-button1:hover {
   color: var(--dl-color-gray-white);
   background-color: var(--dl-color-gray-black);
 }
-.video-course-text23 {
+.video-course-dark-text22 {
   margin-right: var(--dl-space-space-halfunit);
 }
-.video-course-icon10 {
+.video-course-dark-icon6 {
   fill: var(--dl-color-gray-white);
   width: 24px;
   height: 24px;
 }
-.video-course-container25 {
+.video-course-dark-container22 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -749,17 +678,19 @@ export default {
   flex-direction: column;
   justify-content: space-between;
 }
-.video-course-iframe {
+.video-course-dark-iframe {
   width: 100%;
-  height: 720px;
+  height: 620px;
   padding-bottom: var(--dl-space-space-threeunits);
 }
-.video-course-text24 {
+.video-course-dark-text23 {
+  color: var(--dl-color-gray-white);
   font-size: 21px;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-unit);
 }
-.video-course-text25 {
+.video-course-dark-text24 {
+  color: var(--dl-color-gray-white);
   opacity: 0.5;
 }
 </style>

@@ -1,5 +1,5 @@
 {
-  "name": "Fashliy",
+  "name": "fashliy-islamic-learning-platform",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -7,10 +7,9 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "axios": "^0.24.0",
     "vue": "^2.6.7",
-    "vue-meta": "^2.2.1",
-    "vue-router": "^3.0.2"
+    "vue-router": "^3.0.2",
+    "vue-meta": "^2.2.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.1",
