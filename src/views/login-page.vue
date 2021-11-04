@@ -12,6 +12,7 @@
             <span class="login-page-text">Alamat Email</span>
             <input
               type="email"
+              v-model.trim="email"
               placeholder="Tulis email disini..."
               required="true"
               class="login-page-textinput input"
@@ -21,17 +22,18 @@
             <span class="login-page-text1">Password</span>
             <input
               type="password"
+              v-model.trim.lazy="password"
               placeholder="Ketik password disini..."
               required="true"
               class="login-page-textinput1 input"
             />
             <span class="login-page-text2">Lupa Password</span>
           </div>
-          <router-link to="/video-course" class="login-page-navlink">
-            <div class="login-page-container3">
-              <span class="login-page-text3">Masuk</span>
-            </div>
-          </router-link>
+          <!-- <router-link to="/video-course" class="login-page-navlink"> -->
+          <div class="login-page-container3">
+            <span class="login-page-text3" v-on:click="login">Masuk</span>
+          </div>
+          <!-- </router-link> -->
           <div class="login-page-container4">
             <span class="login-page-text4">Daftar</span>
           </div>
@@ -42,10 +44,41 @@
 </template>
 
 <script>
+const axios = require("axios").default;
+const config = require("../config.js").default;
+
 export default {
-  name: 'LoginPage',
+  name: "LoginPage",
+
   props: {},
-}
+  data() {
+    return {
+      password: ``,
+      email: ``,
+    };
+  },
+  methods: {
+    login() {
+      console.log(config.urls.userLogin())
+      axios
+        .post(config.urls.userLogin(), {
+          email: this.email,
+          password: this.password,
+        })
+        .then((res) => {
+          localStorage.setItem(config.localStorage.jwtToken, res.data.data.token)
+          if (res.status == 200) {
+            this.$router.push(`/video-course`)
+          }
+        })
+        .catch((err) => {
+          console.log(err.response);
+          localStorage.removeItem(config.localStorage.jwtToken) // if the request fails, remove any possible user token if possible
+          alert(err);
+        });
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -197,7 +230,7 @@ export default {
   color: var(--dl-color-primary-teal-primary);
   font-weight: 700;
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .login-page-pdd {
     width: auto;
   }
