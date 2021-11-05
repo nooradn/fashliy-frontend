@@ -25,12 +25,12 @@
         <h1 class="home-text003">
           <span>
             Belajar Ilmu Agama lebih
-            <span v-html="rawwpg6"></span>
+            <span v-html="rawoje2"></span>
           </span>
           <span class="home-text005">mudah</span>
           <span>
             dan
-            <span v-html="rawoska"></span>
+            <span v-html="rawlmd5"></span>
           </span>
           <span class="home-text007">terarah.</span>
         </h1>
@@ -50,7 +50,7 @@
       <h1 class="home-text008">
         <span>
           Materi Belajar
-          <span v-html="raw2trk"></span>
+          <span v-html="rawj8pr"></span>
         </span>
         <span class="home-text010">Unggulan</span>
         <br />
@@ -62,8 +62,8 @@
       <div class="home-container03">
         <div class="home-feature-card">
           <img
-            src="/playground_assets/image%205%20%5Btraced%5D.svg"
             alt="image"
+            src="/playground_assets/image%205%20%5Btraced%5D.svg"
             class="home-image02"
           />
           <h2 class="home-text014">Tafsir</h2>
@@ -71,8 +71,8 @@
         </div>
         <div class="home-feature-card1">
           <img
-            src="/playground_assets/image%204%20%5Btraced%5D.svg"
             alt="image"
+            src="/playground_assets/image%204%20%5Btraced%5D.svg"
             class="home-image03"
           />
           <h2 class="home-text016">Hadits</h2>
@@ -80,8 +80,8 @@
         </div>
         <div class="home-feature-card2">
           <img
-            src="/playground_assets/image%207%20%5Btraced%5D.svg"
             alt="image"
+            src="/playground_assets/image%207%20%5Btraced%5D.svg"
             class="home-image04"
           />
           <h2 class="home-text018">Fiqih</h2>
@@ -91,30 +91,30 @@
       <div class="home-container04">
         <div class="home-feature-card3">
           <img
-            src="/playground_assets/image%202%20%5Btraced%5D.svg"
             alt="image"
+            src="/playground_assets/image%202%20%5Btraced%5D.svg"
             class="home-image05"
           />
           <h2 class="home-text020">Akidah Akhlak</h2>
         </div>
         <div class="home-feature-card4">
           <img
-            src="/playground_assets/image%208%20%5Btraced%5D.svg"
             alt="image"
+            src="/playground_assets/image%208%20%5Btraced%5D.svg"
             class="home-image06"
           />
           <h2 class="home-text021">Bahasa Arab</h2>
         </div>
         <div class="home-feature-card5">
           <img
-            src="/playground_assets/image%209%20%5Btraced%5D.svg"
             alt="image"
+            src="/playground_assets/image%209%20%5Btraced%5D.svg"
             class="home-image07"
           />
           <h2 class="home-text022">
             <span class="home-text023">
               Sejarah
-              <span v-html="rawwlsw"></span>
+              <span v-html="raw6rze"></span>
             </span>
             <br />
             <span class="home-text025">Kebudayaan Islam</span>
@@ -122,14 +122,14 @@
         </div>
         <div class="home-feature-card6">
           <img
-            src="/playground_assets/image%2010%20%5Btraced%5D.svg"
             alt="image"
+            src="/playground_assets/image%2010%20%5Btraced%5D.svg"
             class="home-image08"
           />
           <h2 class="home-text026">
             <span class="home-text027">
               Kajian-Kajian
-              <span v-html="raw19c4"></span>
+              <span v-html="raw7any"></span>
             </span>
             <br />
             <span class="home-text029">Islam</span>
@@ -148,7 +148,7 @@
         </a>
         <span class="home-text031">
           from
-          <span v-html="rawiaig"></span>
+          <span v-html="raw6dd5"></span>
         </span>
         <a
           href="https://www.flaticon.com/"
@@ -165,7 +165,7 @@
         <h1 class="home-text032">
           <span>
             Video Materi
-            <span v-html="rawz32x"></span>
+            <span v-html="rawooa6"></span>
           </span>
           <span class="home-text034">Berkualitas</span>
           <br />
@@ -191,7 +191,7 @@
         <h1 class="home-text039">
           <span>
             Paket Hemat,
-            <span v-html="rawg3dl"></span>
+            <span v-html="rawy8u2"></span>
           </span>
           <span class="home-text041">Bersahabat!</span>
           <br />
@@ -208,70 +208,58 @@
             <span class="home-text046">Gratis</span>
           </div>
           <div class="home-container11">
-            <span class="home-text047">
-              <span>✔ Full access to designtool</span>
-            </span>
-            <span class="home-text049"><span>✔ Publish with Teleport</span></span>
-            <span class="home-text051"><span>✔ Subdomain publish</span></span>
-            <span class="home-text053"><span>✔ Download code</span></span>
+            <span class="home-text047"><span>✔ Free trial 7 Hari</span></span>
+            <span class="home-text049"><span>✔ Akses Terbatas</span></span>
+            <span class="home-text051"><span>✔ Berisi Iklan</span></span>
           </div>
           <router-link to="/register-page" class="home-navlink3 button">
-            <span class="home-text055"><span>Daftar Sekarang</span></span>
+            <span class="home-text053"><span>Coba Sekarang</span></span>
           </router-link>
         </div>
         <div class="home-pricing-card1">
-          <span class="home-text057"><span>Santri Pro</span></span>
+          <span class="home-text055"><span>Santri Expert</span></span>
           <div class="home-container12">
-            <span class="home-text059"><span>Rp.</span></span>
-            <span class="home-text061">29</span>
-            <span class="home-text062"><span>ribu</span></span>
+            <span class="home-text057"><span>Rp.</span></span>
+            <span class="home-text059">199</span>
+            <span class="home-text060">K</span>
           </div>
-          <span class="home-text064"><span>PER BULAN</span></span>
+          <span class="home-text061"><span>PER TAHUN</span></span>
           <div class="home-container13">
-            <span class="home-text066">
-              <span>✔ All features of Santri Baru</span>
-            </span>
-            <span class="home-text068">
-              <span>✔ Connect to custom domain</span>
-            </span>
-            <span class="home-text070"><span>✔ Private projects</span></span>
-            <span class="home-text072">
-              <span>✔ No project limitations</span>
-            </span>
-            <span class="home-text074"><span>✔ Unlimited Users</span></span>
+            <span class="home-text063"><span>✔ Pembayaran Tahunan</span></span>
+            <span class="home-text065"><span>✔ Akses Konten Premium</span></span>
+            <span class="home-text067"><span>✔ Tanpa Iklan</span></span>
+            <span class="home-text069"><span>✔ Pelayanan Prioritas</span></span>
           </div>
           <router-link to="/register-page" class="home-navlink4 button">
-            <span class="home-text076"><span>Coba Gratis 7 Hari</span></span>
+            <span class="home-text071"><span>Daftar Sekarang</span></span>
           </router-link>
         </div>
         <div class="home-pricing-card2">
-          <span class="home-text078">
-            Santri Expert
-            <span v-html="rawzjsi"></span>
+          <span class="home-text073">
+            Santri Pro
+            <span v-html="rawt6an"></span>
           </span>
           <div class="home-container14">
-            <span class="home-text079"><span>Rp.</span></span>
-            <span class="home-text081">299</span>
-            <span class="home-text082"><span>ribu</span></span>
+            <span class="home-text074"><span>Rp.</span></span>
+            <span class="home-text076">99</span>
+            <span class="home-text077">K</span>
           </div>
-          <span class="home-text084"><span>PER TAHUN</span></span>
+          <span class="home-text078"><span>PER BULAN</span></span>
           <div class="home-container15">
-            <span class="home-text086">
-              <span>✔ All features of Santri Pro</span>
-            </span>
-            <span class="home-text088"><span>✔ Priority support</span></span>
-            <span class="home-text090"><span>✔ Premium analytics</span></span>
-            <span class="home-text092"><span>✔ Version history</span></span>
+            <span class="home-text080"><span>✔ Pembayaran Bulanan</span></span>
+            <span class="home-text082"><span>✔ Akses Konten Premium</span></span>
+            <span class="home-text084"><span>✔ Tanpa Iklan</span></span>
+            <span class="home-text086"><span>✔ Pelayanan Prioritas</span></span>
           </div>
           <router-link to="/register-page" class="home-navlink5 button">
-            <span class="home-text094">Coba Gratis 7 Hari</span>
+            <span class="home-text088">Daftar Sekarang</span>
           </router-link>
         </div>
       </div>
     </div>
     <div class="home-banner">
-      <h1 class="home-text095">Tunggu Apa Lagi?</h1>
-      <span class="home-text096">
+      <h1 class="home-text089">Tunggu Apa Lagi?</h1>
+      <span class="home-text090">
         <span>
           <span>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
@@ -280,13 +268,13 @@
             elit. Sed non volutpat turpis. Mauris luctus rutrum mi ut rhoncus.
             Integer in dignissim tortor. Sed non volutpat turpis. Mauris luctus
             rutrum mi ut rhoncus. Integer in dignissim ortor.
-            <span v-html="rawbbus"></span>
+            <span v-html="rawgafv"></span>
           </span>
-          <span><span v-html="rawj9p2"></span></span>
+          <span><span v-html="rawi26m"></span></span>
         </span>
       </span>
       <router-link to="/register-page" class="home-navlink6 button">
-        <span class="home-text100"><span>Daftar Sekarang</span></span>
+        <span class="home-text094"><span>Daftar Sekarang</span></span>
       </router-link>
     </div>
     <div class="home-container16">
@@ -297,43 +285,43 @@
           class="home-image09"
         />
         <div class="home-container17">
-          <span class="home-text102">Tentang</span>
-          <span class="home-text103">Katalog</span>
-          <span class="home-text104">Karir</span>
-          <span class="home-text105">Kebijakan Privasi</span>
-          <span class="home-text106">Bantuan</span>
+          <span class="home-text096">Tentang</span>
+          <span class="home-text097">Katalog</span>
+          <span class="home-text098">Karir</span>
+          <span class="home-text099">Kebijakan Privasi</span>
+          <span class="home-text100">Bantuan</span>
         </div>
-        <span class="home-text107">© 2021 Fashliy, Hak Cipta Dilindungi.</span>
+        <span class="home-text101">© 2021 Fashliy, Hak Cipta Dilindungi.</span>
       </footer>
     </div>
   </div>
 </template>
 
 <script>
-// import NavigationLinks from './navigation-links'
-// import GalleryCard1 from './gallery-card1'
+import NavigationLinks from './navigation-links'
+import GalleryCard1 from './gallery-card1'
 
 export default {
   name: 'Home',
   props: {},
   components: {
-    // NavigationLinks,
-    // GalleryCard1,
+    NavigationLinks,
+    GalleryCard1,
   },
 
   data() {
     return {
-      rawwpg6: ' ',
-      rawoska: ' ',
-      raw2trk: ' ',
-      rawwlsw: ' ',
-      raw19c4: ' ',
-      rawiaig: ' ',
-      rawz32x: ' ',
-      rawg3dl: ' ',
-      rawzjsi: ' ',
-      rawbbus: ' ',
-      rawj9p2: ' ',
+      rawoje2: ' ',
+      rawlmd5: ' ',
+      rawj8pr: ' ',
+      raw6rze: ' ',
+      raw7any: ' ',
+      raw6dd5: ' ',
+      rawooa6: ' ',
+      rawy8u2: ' ',
+      rawt6an: ' ',
+      rawgafv: ' ',
+      rawi26m: ' ',
     }
   },
 }
@@ -869,9 +857,6 @@ export default {
 .home-text051 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text053 {
-  margin-bottom: var(--dl-space-space-unit);
-}
 .home-navlink3 {
   color: var(--dl-color-primary-teal-primary);
   font-size: 16px;
@@ -887,7 +872,7 @@ export default {
   text-decoration: none;
   background-color: var(--dl-color-gray-white);
 }
-.home-text055 {
+.home-text053 {
   font-weight: 700;
 }
 .home-pricing-card1 {
@@ -910,7 +895,7 @@ export default {
 .home-pricing-card1:hover {
   transform: scale(1.02);
 }
-.home-text057 {
+.home-text055 {
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 900;
@@ -923,22 +908,22 @@ export default {
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text059 {
+.home-text057 {
   font-size: 1.15rem;
-  margin-top: var(--dl-space-space-twounits);
-  font-weight: 300;
+  margin-top: var(--dl-space-space-unit);
 }
-.home-text061 {
+.home-text059 {
   color: var(--dl-color-primary-teal-primary);
   font-size: 4rem;
   font-weight: 700;
 }
-.home-text062 {
-  font-size: 1.15rem;
-  margin-top: var(--dl-space-space-twounits);
-  font-weight: 300;
+.home-text060 {
+  color: var(--dl-color-primary-teal-primary);
+  font-size: 2rem;
+  margin-top: var(--dl-space-space-unit);
+  font-weight: 700;
 }
-.home-text064 {
+.home-text061 {
   color: var(--dl-color-gray-500);
   font-size: 1.3rem;
   font-weight: 700;
@@ -951,19 +936,16 @@ export default {
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.home-text066 {
+.home-text063 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text068 {
+.home-text065 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text070 {
+.home-text067 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text072 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.home-text074 {
+.home-text069 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-navlink4 {
@@ -981,7 +963,7 @@ export default {
   text-decoration: none;
   background-color: var(--dl-color-primary-teal-primary);
 }
-.home-text076 {
+.home-text071 {
   font-weight: 700;
 }
 .home-pricing-card2 {
@@ -1006,7 +988,7 @@ export default {
 .home-pricing-card2:hover {
   transform: scale(1.02);
 }
-.home-text078 {
+.home-text073 {
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 900;
@@ -1019,22 +1001,22 @@ export default {
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
 }
-.home-text079 {
+.home-text074 {
   font-size: 1.15rem;
-  margin-top: var(--dl-space-space-twounits);
-  font-weight: 300;
+  margin-top: var(--dl-space-space-unit);
 }
-.home-text081 {
+.home-text076 {
   color: var(--dl-color-primary-teal-primary);
   font-size: 4rem;
   font-weight: 700;
 }
-.home-text082 {
-  font-size: 1.15rem;
-  margin-top: var(--dl-space-space-twounits);
-  font-weight: 300;
+.home-text077 {
+  color: var(--dl-color-primary-teal-primary);
+  font-size: 2rem;
+  margin-top: var(--dl-space-space-unit);
+  font-weight: 700;
 }
-.home-text084 {
+.home-text078 {
   color: var(--dl-color-gray-500);
   font-size: 1.3rem;
   font-weight: 700;
@@ -1047,16 +1029,16 @@ export default {
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
+.home-text080 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text082 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text084 {
+  margin-bottom: var(--dl-space-space-unit);
+}
 .home-text086 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.home-text088 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.home-text090 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.home-text092 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-navlink5 {
@@ -1074,7 +1056,7 @@ export default {
   text-decoration: none;
   background-color: var(--dl-color-gray-white);
 }
-.home-text094 {
+.home-text088 {
   font-weight: 700;
 }
 .home-banner {
@@ -1086,12 +1068,12 @@ export default {
   justify-content: space-between;
   background-color: var(--dl-color-primary-teal-primary);
 }
-.home-text095 {
+.home-text089 {
   color: var(--dl-color-gray-white);
   font-size: 3rem;
   text-align: center;
 }
-.home-text096 {
+.home-text090 {
   color: var(--dl-color-gray-white);
   opacity: 0.5;
   max-width: 720px;
@@ -1114,7 +1096,7 @@ export default {
   text-decoration: none;
   background-color: var(--dl-color-gray-white);
 }
-.home-text100 {
+.home-text094 {
   font-weight: 700;
 }
 .home-container16 {
@@ -1146,32 +1128,32 @@ export default {
   align-items: center;
   justify-content: space-between;
 }
-.home-text102 {
+.home-text096 {
   color: var(--dl-color-gray-white);
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
 }
-.home-text103 {
+.home-text097 {
   color: var(--dl-color-gray-white);
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
 }
-.home-text104 {
+.home-text098 {
   color: var(--dl-color-gray-white);
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
 }
-.home-text105 {
+.home-text099 {
   color: var(--dl-color-gray-white);
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
 }
-.home-text106 {
+.home-text100 {
   color: var(--dl-color-gray-white);
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
 }
-.home-text107 {
+.home-text101 {
   color: var(--dl-color-gray-white);
 }
 @media(max-width: 991px) {
@@ -1224,7 +1206,7 @@ export default {
     max-width: 100%;
     align-items: center;
   }
-  .home-text096 {
+  .home-text090 {
     max-width: 100%;
   }
 }
@@ -1301,7 +1283,7 @@ export default {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text096 {
+  .home-text090 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
@@ -1309,32 +1291,32 @@ export default {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text102 {
+  .home-text096 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .home-text103 {
+  .home-text097 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .home-text104 {
+  .home-text098 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .home-text105 {
+  .home-text099 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .home-text106 {
+  .home-text100 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .home-text107 {
+  .home-text101 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
@@ -1360,8 +1342,6 @@ export default {
   .home-text003 {
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
   }
   .home-btn-group1 {
     flex-direction: column;
@@ -1415,32 +1395,32 @@ export default {
   .home-image09 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-text102 {
+  .home-text096 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-text103 {
+  .home-text097 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-text104 {
+  .home-text098 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-text105 {
+  .home-text099 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-text106 {
+  .home-text100 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-text107 {
+  .home-text101 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
