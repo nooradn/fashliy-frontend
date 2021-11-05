@@ -298,15 +298,15 @@
 </template>
 
 <script>
-import NavigationLinks from './navigation-links'
-import GalleryCard1 from './gallery-card1'
+// import NavigationLinks from './navigation-links'
+// import GalleryCard1 from './gallery-card1'
 
 export default {
   name: 'Home',
   props: {},
   components: {
-    NavigationLinks,
-    GalleryCard1,
+    // NavigationLinks,
+    // GalleryCard1,
   },
 
   data() {

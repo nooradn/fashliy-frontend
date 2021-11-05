@@ -16,6 +16,7 @@
                 <span class="register-page-text">Nama Lengkap</span>
                 <input
                   type="text"
+                  v-model.trim="name"
                   required="true"
                   placeholder="Tulis nama lengkap disini..."
                   class="register-page-textinput input"
@@ -25,6 +26,7 @@
                 <span class="register-page-text01">Tanggal Lahir</span>
                 <input
                   type="date"
+                  v-model.trim="birthDate"
                   required="true"
                   placeholder="Tulis email disini..."
                   class="register-page-textinput1 input"
@@ -34,6 +36,7 @@
                 <span class="register-page-text02">Alamat / Domisili</span>
                 <input
                   type="text"
+                  v-model.trim="address"
                   required="true"
                   placeholder="Ketik password disini..."
                   class="register-page-textinput2 input"
@@ -45,6 +48,7 @@
                 >
                 <input
                   type="text"
+                  v-model.trim="instance"
                   required="true"
                   placeholder="Ketik asal sekolahmu..."
                   class="register-page-textinput3 input"
@@ -54,6 +58,7 @@
                 <span class="register-page-text04">Nomor HP / WhatsApp</span>
                 <input
                   type="text"
+                  v-model.trim="phoneNumber"
                   required="true"
                   placeholder="Ketik nomor hpmu disini..."
                   class="register-page-textinput4 input"
@@ -65,6 +70,7 @@
                 <span class="register-page-text05">Buat Username</span>
                 <input
                   type="text"
+                  v-model.trim="username"
                   required="true"
                   placeholder="Buat username yang unik..."
                   class="register-page-textinput5 input"
@@ -74,6 +80,7 @@
                 <span class="register-page-text06">Alamat Email</span>
                 <input
                   type="email"
+                  v-model.trim="email"
                   required="true"
                   placeholder="Masukkan email disini..."
                   class="register-page-textinput6 input"
@@ -83,6 +90,7 @@
                 <span class="register-page-text07">Password</span>
                 <input
                   type="password"
+                  v-model.trim="password"
                   required="true"
                   placeholder="Ketik password disini..."
                   class="register-page-textinput7 input"
@@ -92,6 +100,7 @@
                 <span class="register-page-text08">Konfirmasi Password</span>
                 <input
                   type="password"
+                  v-model.trim="passwordConfirm"
                   required="true"
                   placeholder="Ulangi password..."
                   class="register-page-textinput8 input"
@@ -146,6 +155,8 @@
 </template>
 
 <script>
+const axios = require("axios").default;
+const config = require("../config.js").default;
 export default {
   name: "RegisterPage",
   props: {},
@@ -156,28 +167,40 @@ export default {
       rawlr37: " ",
       rawbuez: " ",
       rawad1m: " ",
+
+      name: ``,
+      username: ``,
+      phoneNumber: ``,
+      birthDate: ``,
+      address: ``,
+      instance: ``,
+      email: ``,
+      password: ``,
+      passwordConfirm: ``,
     };
   },
 
   methods: {
     daftar() {
-
-       axios
+      axios
         .post(config.urls.userRegister(), {
           name: this.name,
+          username: this.username,
+          phoneNumber: this.phoneNumber,
+          birthDate: this.birthDate,
+          address: this.address,
+          instance: this.instance,
           email: this.email,
           password: this.password,
         })
-        .then((res) => {
-          localStorage.setItem(
-            config.localStorage.jwtToken,
-            res.data.data.token
-          );
-          if (res.status == 200) {
-            this.$router.push(`/video-course-dark`);
-          }
+        .then((res) => {  
+          console.log(res.data)
+          alert(res.data.message);
+          this.$router.push(`/video-course-dark`);
         })
         .catch((err) => {
+          console.log(err.response.data)
+          alert(JSON.stringify(err.response.data))
           localStorage.removeItem(config.localStorage.jwtToken); // if the request fails, remove any possible user token if possible
           alert(err);
         });
