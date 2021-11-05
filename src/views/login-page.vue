@@ -14,6 +14,7 @@
             <span class="login-page-text">Alamat Email</span>
             <input
               type="email"
+              v-model.trim="email"
               required="true"
               placeholder="Tulis email disini..."
               class="login-page-textinput input"
@@ -23,17 +24,18 @@
             <span class="login-page-text1">Password</span>
             <input
               type="password"
+              v-model.trim="password"
               required="true"
               placeholder="Ketik password disini..."
               class="login-page-textinput1 input"
             />
             <span class="login-page-text2">Lupa Password</span>
           </div>
-          <router-link to="/video-course-dark" class="login-page-navlink1">
-            <div class="login-page-container3">
+          <button to="/video-course-dark" class="login-page-navlink1">
+            <div class="login-page-container3" v-on:click="login">
               <span class="login-page-text3">Masuk</span>
             </div>
-          </router-link>
+          </button>
           <router-link to="/register-page" class="login-page-navlink2">
             <div class="login-page-container4">
               <span class="login-page-text4">Daftar</span>
@@ -46,18 +48,50 @@
 </template>
 
 <script>
+const axios = require("axios").default;
+const config = require("../config.js").default;
+
 export default {
-  name: 'LoginPage',
+  name: "LoginPage",
   metaInfo: {
-    title: 'login-page - Fashliy - Islamic Learning Platform',
+    title: "login-page - Fashliy - Islamic Learning Platform",
     meta: [
       {
-        property: 'og:title',
-        content: 'login-page - Fashliy - Islamic Learning Platform',
+        property: "og:title",
+        content: "login-page - Fashliy - Islamic Learning Platform",
       },
     ],
   },
-}
+  data() {
+    return {
+      password: ``,
+      email: ``,
+    };
+  },
+
+  methods: {
+    login() {
+      axios
+        .post(config.urls.userLogin(), {
+          email: this.email,
+          password: this.password,
+        })
+        .then((res) => {
+          localStorage.setItem(
+            config.localStorage.jwtToken,
+            res.data.data.token
+          );
+          if (res.status == 200) {
+            this.$router.push(`/video-course-dark`);
+          }
+        })
+        .catch((err) => {
+          localStorage.removeItem(config.localStorage.jwtToken); // if the request fails, remove any possible user token if possible
+          alert(err);
+        });
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -217,7 +251,7 @@ export default {
   color: var(--dl-color-primary-teal-primary);
   font-weight: 700;
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .login-page-pdd {
     width: auto;
   }

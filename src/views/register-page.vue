@@ -17,7 +17,7 @@
                 <input
                   type="text"
                   required="true"
-                  placeholder="Tulis email disini..."
+                  placeholder="Tulis nama lengkap disini..."
                   class="register-page-textinput input"
                 />
               </div>
@@ -40,7 +40,9 @@
                 />
               </div>
               <div class="register-page-container06">
-                <span class="register-page-text03">Asal Sekolah / Instansi</span>
+                <span class="register-page-text03"
+                  >Asal Sekolah / Instansi</span
+                >
                 <input
                   type="text"
                   required="true"
@@ -125,11 +127,13 @@
               </div>
             </div>
           </div>
-          <router-link to="/video-course-dark" class="register-page-navlink1">
+          <button to="/video-course-dark" class="register-page-navlink1">
             <div class="register-page-container14">
-              <span class="register-page-text17">Daftar</span>
+              <span class="register-page-text17" v-on:click="daftar"
+                >Daftar</span
+              >
             </div>
-          </router-link>
+          </button>
           <router-link to="/login-page" class="register-page-navlink2">
             <div class="register-page-container15">
               <span class="register-page-text18">Masuk</span>
@@ -143,18 +147,43 @@
 
 <script>
 export default {
-  name: 'RegisterPage',
+  name: "RegisterPage",
   props: {},
 
   data() {
     return {
-      rawy647: ' ',
-      rawlr37: ' ',
-      rawbuez: ' ',
-      rawad1m: ' ',
-    }
+      rawy647: " ",
+      rawlr37: " ",
+      rawbuez: " ",
+      rawad1m: " ",
+    };
   },
-}
+
+  methods: {
+    daftar() {
+
+       axios
+        .post(config.urls.userRegister(), {
+          name: this.name,
+          email: this.email,
+          password: this.password,
+        })
+        .then((res) => {
+          localStorage.setItem(
+            config.localStorage.jwtToken,
+            res.data.data.token
+          );
+          if (res.status == 200) {
+            this.$router.push(`/video-course-dark`);
+          }
+        })
+        .catch((err) => {
+          localStorage.removeItem(config.localStorage.jwtToken); // if the request fails, remove any possible user token if possible
+          alert(err);
+        });
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -546,7 +575,7 @@ export default {
   color: var(--dl-color-primary-teal-primary);
   font-weight: 700;
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .register-page-pdd {
     width: auto;
   }

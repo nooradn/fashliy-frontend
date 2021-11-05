@@ -113,30 +113,50 @@
       <span class="video-course-dark-text23">Faidah / Catatan</span>
       <span class="video-course-dark-text24">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl fames
-        aliquet blandit fermentum in. Congue nisl porttitor suscipit pellentesque
-        maecenas. Nibh enim mi turpis bibendum pellentesque cursus. Ipsum lectus
-        laoreet amet, porta feugiat nibh a sapien vitae. Dictum tortor mauris diam
-        lobortis a nulla. Libero eget justo quis sed. Massa odio netus cursus
-        vestibulum nascetur proin. At auctor eu nibh amet donec mi ac ut. Vitae
-        cursus sed tincidunt non. Sit purus in nunc, egestas sit nullam.
+        aliquet blandit fermentum in. Congue nisl porttitor suscipit
+        pellentesque maecenas. Nibh enim mi turpis bibendum pellentesque cursus.
+        Ipsum lectus laoreet amet, porta feugiat nibh a sapien vitae. Dictum
+        tortor mauris diam lobortis a nulla. Libero eget justo quis sed. Massa
+        odio netus cursus vestibulum nascetur proin. At auctor eu nibh amet
+        donec mi ac ut. Vitae cursus sed tincidunt non. Sit purus in nunc,
+        egestas sit nullam.
       </span>
     </div>
   </div>
 </template>
 
 <script>
+const axios = require("axios").default;
+const config = require("../config.js").default;
+
 export default {
-  name: 'VideoCourseDark',
+  name: "VideoCourseDark",
+  beforeCreate() {
+    axios.defaults.headers.common[
+      "Authorization"
+    ] = `Bearer ${localStorage.getItem(config.localStorage.jwtToken)}`;
+    axios
+      .get(config.urls.userInfo())
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => {
+        console.log(err.response);
+        if (err.response.status == 401) {
+          this.$router.push(`/login-page`);
+        }
+      });
+  },
   metaInfo: {
-    title: 'video-course-dark - Fashliy - Islamic Learning Platform',
+    title: "video-course-dark - Fashliy - Islamic Learning Platform",
     meta: [
       {
-        property: 'og:title',
-        content: 'video-course-dark - Fashliy - Islamic Learning Platform',
+        property: "og:title",
+        content: "video-course-dark - Fashliy - Islamic Learning Platform",
       },
     ],
   },
-}
+};
 </script>
 
 <style scoped>
@@ -158,7 +178,7 @@ export default {
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #31313E;
+  background-color: #31313e;
 }
 .video-course-dark-container01 {
   flex: 0 0 auto;
@@ -168,7 +188,7 @@ export default {
   align-self: stretch;
   align-items: center;
   justify-content: center;
-  background-color: #3B3B48;
+  background-color: #3b3b48;
 }
 .video-course-dark-navlink {
   display: contents;
