@@ -241,7 +241,7 @@
           </span>
           <div class="home-container14">
             <span class="home-text074"><span>Rp.</span></span>
-            <span class="home-text076">99</span>
+            <span class="home-text076">29</span>
             <span class="home-text077">K</span>
           </div>
           <span class="home-text078"><span>PER BULAN</span></span>
