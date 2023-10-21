@@ -1,11 +1,10 @@
-# fashliy-frontend
+# About
+Fashliy is an online Islamic learning management system.  
+This is the source code for front-end application.  
 
-Source-code Fashliy untuk tampilan web  
-  
-Fashliy adalah sebuah platform pembelajaran Ilmu Agama secara online
+# Deployment / Access
+You can open thru this link:  
+https://fashliy-frontend.pages.dev/
 
-# deployment
-https://fashliy.teleporthq.app/
-
-# backend
+# Back-End
 https://github.com/Velezer/fashliy
