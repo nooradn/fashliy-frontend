@@ -1,3 +1,6 @@
+# Preview
+![Alt text](preview-image.jpg)
+
 # About
 Fashliy is an online Islamic learning management system.  
 This is the source code for front-end application.  
