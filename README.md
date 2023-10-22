@@ -1,8 +1,8 @@
 # Preview
-![Alt text](preview-image.jpg)
+![Fashliy LMS Preview Image](preview-image.jpg)
 
 # About
-Fashliy is an online Islamic learning management system.  
+Fashliy is an online Islamic learning management system (LMS).  
 This is the source code for front-end application.  
 
 # Deployment / Access
